@@ -1,0 +1,16 @@
+{
+  "COMPUTE_CAPACITY": {"team": "Platform Operations", "topic_arn": "arn:aws:sns:us-east-1:123456789012:team-platform-ops",
+    "runbook": ["Check CPU/memory trend for the last hour in CloudWatch", "Confirm the Auto Scaling group reached desired capacity", "If a single instance is unhealthy, replace it; if fleet-wide, raise max capacity"]},
+  "NETWORK": {"team": "Network Engineering", "topic_arn": "arn:aws:sns:us-east-1:123456789012:team-network",
+    "runbook": ["Check load balancer target health and latency metrics", "Review VPC Flow Logs and Route 53 health checks", "Verify VPN/Direct Connect tunnel status"]},
+  "DATABASE": {"team": "Database Administration", "topic_arn": "arn:aws:sns:us-east-1:123456789012:team-dba",
+    "runbook": ["Check connection count against max_connections", "Review replica lag and slow-query log", "Fail over to the standby if the primary is unhealthy"]},
+  "STORAGE": {"team": "Platform Operations", "topic_arn": "arn:aws:sns:us-east-1:123456789012:team-platform-ops",
+    "runbook": ["Identify the volume or bucket and current utilization", "Expand the EBS volume or clean up old snapshots/logs", "Check IOPS/throughput limits for the volume type"]},
+  "SECURITY": {"team": "Security Operations", "topic_arn": "arn:aws:sns:us-east-1:123456789012:team-secops",
+    "runbook": ["Open the finding in GuardDuty/Security Hub and preserve evidence", "Identify the principal and source IP; disable keys if compromise is likely", "Follow the incident response playbook (NIST SP 800-61r3)"]},
+  "APPLICATION_DEPLOY": {"team": "Application Support", "topic_arn": "arn:aws:sns:us-east-1:123456789012:team-app-support",
+    "runbook": ["Check the most recent deployment and roll back if errors started after it", "Review application logs for the top exception", "Confirm downstream dependencies are healthy"]},
+  "COST_BILLING": {"team": "FinOps", "topic_arn": "arn:aws:sns:us-east-1:123456789012:team-finops",
+    "runbook": ["Open Cost Explorer filtered to the service and day", "Identify untagged or newly launched resources", "Confirm with the owning team before stopping resources"]}
+}

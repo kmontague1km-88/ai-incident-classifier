@@ -1,0 +1,2101 @@
+text,label,template_id
+TLS handshake timeouts between API gateway and auth backend,NETWORK,NETWORK-9
+URGENT IAM policy AdministratorAccess attached to user admin-temp outside change window,SECURITY,SECURITY-2
+DynamoDB table inventory-ddb ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+416 failed console login attempts for user svc-deploy from 198.51.100.23,SECURITY,SECURITY-1
+URGENT Aurora failover initiated for cluster orders-db,DATABASE,DATABASE-6
+vpn tunnel to corporate network is down,NETWORK,NETWORK-2
+"deployment v2.18 of auth failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Savings Plan utilization dropped to 96%,COST_BILLING,COST_BILLING-4
+Slow query log: 93 queries over 4920 ms on inventory-ddb,DATABASE,DATABASE-5
+ALARM: disk usage 87% on /var on ip-10-0-3-17,STORAGE,STORAGE-0
+"deployment v5.24 of checkout failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+"Deployment v8.23 of search failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+"RDS instance inventory-ddb storage-full event, writes failing",DATABASE,DATABASE-3
+DNS resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+Data transfer out charges spiked by $6694 in eu-west-1,COST_BILLING,COST_BILLING-9
+Unexpected NAT gateway data processing charges of $2341,COST_BILLING,COST_BILLING-3
+iam policy administratoraccess attached to user admin-temp outside change window,SECURITY,SECURITY-2
+ALARM: disk usage 94% on /var on orders-svc,STORAGE,STORAGE-0
+CodePipeline stage Deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Container for catalog in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+"Deployment v4.30 of auth failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+[P2] Reserved instance coverage fell below 99% target,COST_BILLING,COST_BILLING-7
+Inode usage 84% on data volume of batch-worker-2,STORAGE,STORAGE-9
+unhandled exception rate increased for catalog after release v7.1,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+nullpointerexception spike in checkout logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+FYI: ALARM: TargetResponseTime > 4433 ms on application load balancer,NETWORK,NETWORK-0
+URGENT Elevated network latency to reporting-node: 8779 ms round trip,NETWORK,NETWORK-6
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+URGENT Route 53 health check failed for search.example.com,NETWORK,NETWORK-3
+URGENT Canary deployment of notifications v2.12 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+[PagerDuty] CodePipeline stage Deploy failed for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+tls handshake timeouts between api gateway and catalog backend,NETWORK,NETWORK-9
+URGENT ALARM: HTTPCode_Target_5XX_Count > 72 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+Load balancer has 0 healthy targets in target group notifications-tg,NETWORK,NETWORK-7
+ALARM: disk usage 85% on /var on batch-worker-2,STORAGE,STORAGE-0
+EC2 status check failed for reporting-node; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Packet loss of 84% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+DynamoDB table rds-prod-main ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+"deployment v1.17 of catalog failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+route 53 health check failed for checkout.example.com,NETWORK,NETWORK-3
+[PagerDuty] Cost anomaly detected: EC2 spend up $7931 today in us-east-1,COST_BILLING,COST_BILLING-1
+Container for catalog in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+security group opened port 22 to 0.0.0.0/0 by svc-deploy,SECURITY,SECURITY-8
+FYI: Backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Too many connections error from application to rds-prod-main,DATABASE,DATABASE-7
+"Kubernetes node web-07 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+NullPointerException spike in catalog logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+savings plan utilization dropped to 82%,COST_BILLING,COST_BILLING-4
+unhandled exception rate increased for checkout after release v3.5,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+"log partition almost full on reporting-node, 82% used",STORAGE,STORAGE-5
+URGENT alarm: databaseconnections > 8 on rds-prod-main,DATABASE,DATABASE-0
+Canary deployment of catalog v6.19 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Cost anomaly detected: EC2 spend up $8497 today in us-west-2,COST_BILLING,COST_BILLING-1
+333 failed console login attempts for user admin-temp from 192.0.2.88,SECURITY,SECURITY-1
+Cost anomaly detected: EC2 spend up $2388 today in eu-west-1,COST_BILLING,COST_BILLING-1
+EBS volume attached to web-01 BurstBalance below 10%,STORAGE,STORAGE-1
+Access key for ci-runner used from unusual location 185.220.101.4,SECURITY,SECURITY-7
+Backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+"EBS volume queue length high, IOPS limit reached on i-0a1b2c3d4e5f",STORAGE,STORAGE-4
+229 failed console login attempts for user contractor-07 from 185.220.101.4,SECURITY,SECURITY-1
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+[PagerDuty] direct connect connection state changed to down,NETWORK,NETWORK-8
+[PagerDuty] Unexpected NAT gateway data processing charges of $9246,COST_BILLING,COST_BILLING-3
+FYI: Savings Plan utilization dropped to 81%,COST_BILLING,COST_BILLING-4
+CloudTrail logging stopped by contractor-07,SECURITY,SECURITY-3
+[P2] Load balancer has 0 healthy targets in target group search-tg,NETWORK,NETWORK-7
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+Canary deployment of catalog v3.0 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+AWS Budgets: actual spend exceeded 97% of monthly budget,COST_BILLING,COST_BILLING-0
+Cost anomaly detected: EC2 spend up $4268 today in us-east-1,COST_BILLING,COST_BILLING-1
+Application checkout returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+DynamoDB table customers-aurora ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+"Log partition almost full on i-09f8e7d6c5b4, 92% used",STORAGE,STORAGE-5
+route 53 health check failed for search.example.com,NETWORK,NETWORK-3
+TLS handshake timeouts between API gateway and auth backend,NETWORK,NETWORK-9
+GuardDuty: CryptoCurrency mining activity detected on ip-10-0-3-17,SECURITY,SECURITY-6
+"EBS volume queue length high, IOPS limit reached on reporting-node",STORAGE,STORAGE-4
+Slow query log: 260 queries over 3141 ms on orders-db,DATABASE,DATABASE-5
+canary deployment of checkout v6.3 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+"FYI: Load average on batch-worker-2 is 166, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Canary deployment of catalog v7.16 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Cost anomaly detected: EC2 spend up $660 today in eu-west-1,COST_BILLING,COST_BILLING-1
+TLS handshake timeouts between API gateway and catalog backend,NETWORK,NETWORK-9
+ECS service notifications cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+"load average on web-07 is 87, exceeds number of vcpus",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Data transfer out charges spiked by $189 in eu-west-1,COST_BILLING,COST_BILLING-9
+[PagerDuty] Slow query log: 373 queries over 6443 ms on orders-db,DATABASE,DATABASE-5
+ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+EC2 status check failed for orders-svc; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Cost Explorer: S3 storage cost increase of $1301 this week,COST_BILLING,COST_BILLING-6
+ALARM: HTTPCode_Target_5XX_Count > 91 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+"kubernetes node web-01 notready, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+"FYI: Log partition almost full on i-0a1b2c3d4e5f, 90% used",STORAGE,STORAGE-5
+FYI: GuardDuty: CryptoCurrency mining activity detected on i-0a1b2c3d4e5f,SECURITY,SECURITY-6
+load balancer has 0 healthy targets in target group notifications-tg,NETWORK,NETWORK-7
+Inode usage 91% on data volume of payments-api,STORAGE,STORAGE-9
+GuardDuty: CryptoCurrency mining activity detected on api-prod-3,SECURITY,SECURITY-6
+EC2 status check failed for i-0a1b2c3d4e5f; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Security group opened port 22 to 0.0.0.0/0 by jdoe,SECURITY,SECURITY-8
+Lambda function auth throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+s3 put requests returning slowdown on bucket backup-archive,STORAGE,STORAGE-8
+[P2] S3 bucket customer-uploads replication failed for 324 objects,STORAGE,STORAGE-3
+Unhandled exception rate increased for search after release v4.12,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+deadlock detected in rds-prod-main on table orders,DATABASE,DATABASE-2
+"EBS volume queue length high, IOPS limit reached on batch-worker-2",STORAGE,STORAGE-4
+ALARM: CPUUtilization > 88% for 15 minutes on payments-api,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+TLS handshake timeouts between API gateway and auth backend,NETWORK,NETWORK-9
+Filesystem / is 90% full on batch-worker-2,STORAGE,STORAGE-2
+DNS resolution failures for catalog internal endpoint,NETWORK,NETWORK-4
+"rds instance customers-aurora storage-full event, writes failing",DATABASE,DATABASE-3
+[PagerDuty] Deadlock detected in analytics-pg on table orders,DATABASE,DATABASE-2
+Reserved instance coverage fell below 82% target,COST_BILLING,COST_BILLING-7
+waf blocked 40 sql injection attempts against notifications,SECURITY,SECURITY-5
+alarm: httpcode_target_5xx_count > 471 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+[P2] NullPointerException spike in notifications logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+FYI: CodePipeline stage Deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Canary deployment of search v5.4 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Synthetic canary for notifications checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+direct connect connection state changed to down,NETWORK,NETWORK-8
+[PagerDuty] AWS Budgets: actual spend exceeded 94% of monthly budget,COST_BILLING,COST_BILLING-0
+"kubernetes node payments-api notready, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+URGENT WAF blocked 353 SQL injection attempts against catalog,SECURITY,SECURITY-5
+"Deployment v1.4 of search failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+"Instance web-01 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+[P2] S3 bucket customer-uploads made public by admin-temp,SECURITY,SECURITY-4
+[PagerDuty] AWS Budgets: actual spend exceeded 99% of monthly budget,COST_BILLING,COST_BILLING-0
+CloudTrail logging stopped by svc-deploy,SECURITY,SECURITY-3
+Elevated network latency to ip-10-0-3-17: 6794 ms round trip,NETWORK,NETWORK-6
+NullPointerException spike in auth logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+"Log partition almost full on i-09f8e7d6c5b4, 93% used",STORAGE,STORAGE-5
+Unhandled exception rate increased for search after release v1.7,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+S3 PUT requests returning SlowDown on bucket backup-archive,STORAGE,STORAGE-8
+Cost anomaly detected: EC2 spend up $3601 today in eu-west-1,COST_BILLING,COST_BILLING-1
+efs file system percentiolimit at 92%,STORAGE,STORAGE-6
+"Log partition almost full on payments-api, 90% used",STORAGE,STORAGE-5
+AWS Budgets: actual spend exceeded 85% of monthly budget,COST_BILLING,COST_BILLING-0
+Error rate for catalog API at 83% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+snapshot creation failed: volume batch-worker-2 in error state,STORAGE,STORAGE-7
+Billing alarm: EstimatedCharges > $4114,COST_BILLING,COST_BILLING-8
+"instance api-prod-3 out of memory, oom killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+ebs volume attached to ip-10-0-3-17 burstbalance below 10%,STORAGE,STORAGE-1
+ALARM: HTTPCode_Target_5XX_Count > 113 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+EFS file system PercentIOLimit at 87%,STORAGE,STORAGE-6
+Billing alarm: EstimatedCharges > $8445,COST_BILLING,COST_BILLING-8
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+direct connect connection state changed to down,NETWORK,NETWORK-8
+ALARM: disk usage 96% on /var on api-prod-3,STORAGE,STORAGE-0
+Packet loss of 86% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+[P2] TLS handshake timeouts between API gateway and auth backend,NETWORK,NETWORK-9
+Container for checkout in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+URGENT Slow query log: 13 queries over 5070 ms on inventory-ddb,DATABASE,DATABASE-5
+ALARM: CPUUtilization > 91% for 15 minutes on payments-api,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Billing alarm: EstimatedCharges > $8391,COST_BILLING,COST_BILLING-8
+High CPU usage detected on instance orders-svc (85%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+dynamodb table rds-prod-main provisionedthroughputexceededexception on writes,DATABASE,DATABASE-4
+"deployment v3.27 of catalog failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+billing alarm: estimatedcharges > $5675,COST_BILLING,COST_BILLING-8
+Backup job for rds-prod-main failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+Packet loss of 90% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+CodePipeline stage Deploy failed for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+[P2] Cost anomaly detected: EC2 spend up $5999 today in us-east-1,COST_BILLING,COST_BILLING-1
+Application auth returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+FYI: S3 PUT requests returning SlowDown on bucket data-lake-raw,STORAGE,STORAGE-8
+ALARM: HTTPCode_Target_5XX_Count > 499 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+synthetic canary for search checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+tls handshake timeouts between api gateway and auth backend,NETWORK,NETWORK-9
+Application search returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+URGENT aurora failover initiated for cluster rds-prod-main,DATABASE,DATABASE-6
+[PagerDuty] Root account login detected from 203.0.113.45,SECURITY,SECURITY-9
+Untagged resources accruing $5126 per day,COST_BILLING,COST_BILLING-5
+Database CPU at 91% on customers-aurora due to long running query,DATABASE,DATABASE-8
+Billing alarm: EstimatedCharges > $7680,COST_BILLING,COST_BILLING-8
+NullPointerException spike in search logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+vpn tunnel to corporate network is down,NETWORK,NETWORK-2
+Error rate for checkout API at 91% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+"Kubernetes node api-prod-3 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+WAF blocked 127 SQL injection attempts against notifications,SECURITY,SECURITY-5
+URGENT CodePipeline stage Deploy failed for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+"Deployment v2.3 of notifications failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Snapshot creation failed: volume batch-worker-2 in error state,STORAGE,STORAGE-7
+Application catalog returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+MemoryUtilization above threshold on orders-svc: 82% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+FYI: CodePipeline stage Deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+forecasted monthly cost exceeds budget by $5356,COST_BILLING,COST_BILLING-2
+s3 bucket prod-logs replication failed for 82 objects,STORAGE,STORAGE-3
+Elevated network latency to i-09f8e7d6c5b4: 3402 ms round trip,NETWORK,NETWORK-6
+EFS file system PercentIOLimit at 99%,STORAGE,STORAGE-6
+[P2] CodePipeline stage Deploy failed for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Reserved instance coverage fell below 96% target,COST_BILLING,COST_BILLING-7
+[PagerDuty] IAM policy AdministratorAccess attached to user ci-runner outside change window,SECURITY,SECURITY-2
+Filesystem / is 94% full on web-01,STORAGE,STORAGE-2
+Unexpected NAT gateway data processing charges of $5431,COST_BILLING,COST_BILLING-3
+ALARM: DatabaseConnections > 39 on analytics-pg,DATABASE,DATABASE-0
+Filesystem / is 98% full on ip-10-0-3-17,STORAGE,STORAGE-2
+FYI: dns resolution failures for search internal endpoint,NETWORK,NETWORK-4
+alarm: httpcode_target_5xx_count > 62 for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+"[P2] log partition almost full on payments-api, 95% used",STORAGE,STORAGE-5
+ALARM: disk usage 93% on /var on api-prod-3,STORAGE,STORAGE-0
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+codepipeline stage deploy failed for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+too many connections error from application to customers-aurora,DATABASE,DATABASE-7
+ECS service auth cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Canary deployment of search v5.14 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Access key for contractor-07 used from unusual location 198.51.100.23,SECURITY,SECURITY-7
+container for catalog in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+URGENT MemoryUtilization above threshold on i-09f8e7d6c5b4: 81% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+High CPU usage detected on instance api-prod-3 (89%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Data transfer out charges spiked by $8966 in us-east-1,COST_BILLING,COST_BILLING-9
+[P2] Load balancer has 0 healthy targets in target group catalog-tg,NETWORK,NETWORK-7
+Aurora failover initiated for cluster inventory-ddb,DATABASE,DATABASE-6
+"Load average on payments-api is 474, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Aurora failover initiated for cluster rds-prod-main,DATABASE,DATABASE-6
+S3 bucket prod-logs replication failed for 110 objects,STORAGE,STORAGE-3
+Cost Explorer: S3 storage cost increase of $4740 this week,COST_BILLING,COST_BILLING-6
+FYI: EC2 status check failed for web-01; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+IAM policy AdministratorAccess attached to user contractor-07 outside change window,SECURITY,SECURITY-2
+Packet loss of 87% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+EFS file system PercentIOLimit at 83%,STORAGE,STORAGE-6
+CloudTrail logging stopped by contractor-07,SECURITY,SECURITY-3
+[P2] Lambda function search throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Packet loss of 96% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+reserved instance coverage fell below 85% target,COST_BILLING,COST_BILLING-7
+MemoryUtilization above threshold on reporting-node: 86% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+ALARM: disk usage 85% on /var on reporting-node,STORAGE,STORAGE-0
+Savings Plan utilization dropped to 99%,COST_BILLING,COST_BILLING-4
+billing alarm: estimatedcharges > $6507,COST_BILLING,COST_BILLING-8
+Untagged resources accruing $1649 per day,COST_BILLING,COST_BILLING-5
+Canary deployment of catalog v4.18 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Snapshot creation failed: volume i-09f8e7d6c5b4 in error state,STORAGE,STORAGE-7
+Aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+Error rate for catalog API at 99% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+EC2 status check failed for i-09f8e7d6c5b4; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+FYI: Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+DNS resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+ALARM: disk usage 82% on /var on orders-svc,STORAGE,STORAGE-0
+[P2] GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against api-prod-3 from 203.0.113.45,SECURITY,SECURITY-0
+lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Lambda function catalog throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Inode usage 90% on data volume of api-prod-3,STORAGE,STORAGE-9
+URGENT dynamodb table orders-db provisionedthroughputexceededexception on writes,DATABASE,DATABASE-4
+TLS handshake timeouts between API gateway and checkout backend,NETWORK,NETWORK-9
+Application checkout returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Unhandled exception rate increased for catalog after release v4.30,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Replica lag on orders-db is 313 seconds,DATABASE,DATABASE-1
+Savings Plan utilization dropped to 88%,COST_BILLING,COST_BILLING-4
+Error rate for catalog API at 82% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+high cpu usage detected on instance web-01 (89%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Reserved instance coverage fell below 90% target,COST_BILLING,COST_BILLING-7
+Snapshot creation failed: volume api-prod-3 in error state,STORAGE,STORAGE-7
+Inode usage 86% on data volume of payments-api,STORAGE,STORAGE-9
+EC2 status check failed for i-0a1b2c3d4e5f; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+"[PagerDuty] kubernetes node web-07 notready, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+GuardDuty: CryptoCurrency mining activity detected on ip-10-0-3-17,SECURITY,SECURITY-6
+DNS resolution failures for checkout internal endpoint,NETWORK,NETWORK-4
+synthetic canary for auth checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+S3 bucket prod-logs made public by ci-runner,SECURITY,SECURITY-4
+Packet loss of 93% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+Elevated network latency to web-01: 7506 ms round trip,NETWORK,NETWORK-6
+Elevated network latency to i-0a1b2c3d4e5f: 2192 ms round trip,NETWORK,NETWORK-6
+Packet loss of 82% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+URGENT WAF blocked 437 SQL injection attempts against search,SECURITY,SECURITY-5
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+Aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+"Load average on reporting-node is 61, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Forecasted monthly cost exceeds budget by $9775,COST_BILLING,COST_BILLING-2
+alarm: cpuutilization > 83% for 15 minutes on web-07,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+ALARM: disk usage 90% on /var on i-0a1b2c3d4e5f,STORAGE,STORAGE-0
+database cpu at 88% on rds-prod-main due to long running query,DATABASE,DATABASE-8
+s3 bucket customer-uploads replication failed for 353 objects,STORAGE,STORAGE-3
+dns resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+Too many connections error from application to inventory-ddb,DATABASE,DATABASE-7
+DynamoDB table analytics-pg ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+EFS file system PercentIOLimit at 89%,STORAGE,STORAGE-6
+MemoryUtilization above threshold on web-07: 88% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Replica lag on orders-db is 390 seconds,DATABASE,DATABASE-1
+nullpointerexception spike in catalog logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+"EBS volume queue length high, IOPS limit reached on batch-worker-2",STORAGE,STORAGE-4
+Load balancer has 0 healthy targets in target group checkout-tg,NETWORK,NETWORK-7
+IAM policy AdministratorAccess attached to user ci-runner outside change window,SECURITY,SECURITY-2
+Reserved instance coverage fell below 89% target,COST_BILLING,COST_BILLING-7
+"[P2] Kubernetes node ip-10-0-3-17 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+FYI: NullPointerException spike in catalog logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+Route 53 health check failed for checkout.example.com,NETWORK,NETWORK-3
+Forecasted monthly cost exceeds budget by $1664,COST_BILLING,COST_BILLING-2
+alarm: httpcode_target_5xx_count > 292 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+URGENT S3 bucket prod-logs made public by contractor-07,SECURITY,SECURITY-4
+Inode usage 88% on data volume of batch-worker-2,STORAGE,STORAGE-9
+CloudTrail logging stopped by jdoe,SECURITY,SECURITY-3
+Replica lag on orders-db is 395 seconds,DATABASE,DATABASE-1
+Reserved instance coverage fell below 81% target,COST_BILLING,COST_BILLING-7
+URGENT Forecasted monthly cost exceeds budget by $8579,COST_BILLING,COST_BILLING-2
+Forecasted monthly cost exceeds budget by $7107,COST_BILLING,COST_BILLING-2
+Backup job for orders-db failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Error rate for catalog API at 92% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+"EBS volume queue length high, IOPS limit reached on reporting-node",STORAGE,STORAGE-4
+"EBS volume queue length high, IOPS limit reached on batch-worker-2",STORAGE,STORAGE-4
+"Instance web-07 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+FYI: EC2 status check failed for i-0a1b2c3d4e5f; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+CodePipeline stage Deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+s3 bucket prod-logs replication failed for 246 objects,STORAGE,STORAGE-3
+Unexpected NAT gateway data processing charges of $591,COST_BILLING,COST_BILLING-3
+WAF blocked 61 SQL injection attempts against checkout,SECURITY,SECURITY-5
+ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+DNS resolution failures for checkout internal endpoint,NETWORK,NETWORK-4
+[PagerDuty] load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+Reserved instance coverage fell below 86% target,COST_BILLING,COST_BILLING-7
+URGENT Too many connections error from application to orders-db,DATABASE,DATABASE-7
+Error rate for notifications API at 84% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+Cost anomaly detected: EC2 spend up $2386 today in us-west-2,COST_BILLING,COST_BILLING-1
+memoryutilization above threshold on reporting-node: 90% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+EC2 status check failed for i-0a1b2c3d4e5f; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+49 failed console login attempts for user jdoe from 192.0.2.88,SECURITY,SECURITY-1
+Slow query log: 341 queries over 8429 ms on inventory-ddb,DATABASE,DATABASE-5
+NullPointerException spike in checkout logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+S3 bucket backup-archive made public by svc-deploy,SECURITY,SECURITY-4
+Lambda function auth throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Route 53 health check failed for auth.example.com,NETWORK,NETWORK-3
+[PagerDuty] High CPU usage detected on instance ip-10-0-3-17 (97%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Too many connections error from application to rds-prod-main,DATABASE,DATABASE-7
+[PagerDuty] Packet loss of 86% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+ALARM: CPUUtilization > 83% for 15 minutes on api-prod-3,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+[P2] EBS volume attached to reporting-node BurstBalance below 10%,STORAGE,STORAGE-1
+Error rate for search API at 86% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+"RDS instance orders-db storage-full event, writes failing",DATABASE,DATABASE-3
+security group opened port 22 to 0.0.0.0/0 by jdoe,SECURITY,SECURITY-8
+WAF blocked 287 SQL injection attempts against checkout,SECURITY,SECURITY-5
+DynamoDB table analytics-pg ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+IAM policy AdministratorAccess attached to user jdoe outside change window,SECURITY,SECURITY-2
+"Instance i-09f8e7d6c5b4 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+Forecasted monthly cost exceeds budget by $3961,COST_BILLING,COST_BILLING-2
+"Deployment v7.4 of auth failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+FYI: Inode usage 88% on data volume of batch-worker-2,STORAGE,STORAGE-9
+Inode usage 89% on data volume of web-01,STORAGE,STORAGE-9
+ALARM: TargetResponseTime > 3113 ms on application load balancer,NETWORK,NETWORK-0
+Error rate for checkout API at 99% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+Route 53 health check failed for search.example.com,NETWORK,NETWORK-3
+Unexpected NAT gateway data processing charges of $9486,COST_BILLING,COST_BILLING-3
+[P2] Security group opened port 22 to 0.0.0.0/0 by svc-deploy,SECURITY,SECURITY-8
+Packet loss of 87% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+TLS handshake timeouts between API gateway and catalog backend,NETWORK,NETWORK-9
+Lambda function catalog throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Reserved instance coverage fell below 88% target,COST_BILLING,COST_BILLING-7
+Reserved instance coverage fell below 98% target,COST_BILLING,COST_BILLING-7
+"Instance i-0a1b2c3d4e5f out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+"URGENT Kubernetes node batch-worker-2 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+S3 bucket prod-logs replication failed for 208 objects,STORAGE,STORAGE-3
+Root account login detected from 198.51.100.23,SECURITY,SECURITY-9
+access key for jdoe used from unusual location 198.51.100.23,SECURITY,SECURITY-7
+Load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+Backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Snapshot creation failed: volume i-0a1b2c3d4e5f in error state,STORAGE,STORAGE-7
+Filesystem / is 88% full on ip-10-0-3-17,STORAGE,STORAGE-2
+Root account login detected from 203.0.113.45,SECURITY,SECURITY-9
+Billing alarm: EstimatedCharges > $5846,COST_BILLING,COST_BILLING-8
+database cpu at 92% on inventory-ddb due to long running query,DATABASE,DATABASE-8
+"Instance payments-api out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+[PagerDuty] Container for notifications in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+"Deployment v8.2 of catalog failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Cost Explorer: S3 storage cost increase of $2869 this week,COST_BILLING,COST_BILLING-6
+TLS handshake timeouts between API gateway and checkout backend,NETWORK,NETWORK-9
+vpn tunnel to corporate network is down,NETWORK,NETWORK-2
+406 failed console login attempts for user contractor-07 from 185.220.101.4,SECURITY,SECURITY-1
+iam policy administratoraccess attached to user admin-temp outside change window,SECURITY,SECURITY-2
+ALARM: TargetResponseTime > 3271 ms on application load balancer,NETWORK,NETWORK-0
+Reserved instance coverage fell below 87% target,COST_BILLING,COST_BILLING-7
+High CPU usage detected on instance batch-worker-2 (83%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+WAF blocked 414 SQL injection attempts against notifications,SECURITY,SECURITY-5
+slow query log: 350 queries over 559 ms on inventory-ddb,DATABASE,DATABASE-5
+Slow query log: 41 queries over 8503 ms on customers-aurora,DATABASE,DATABASE-5
+[P2] CodePipeline stage Deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+guardduty: cryptocurrency mining activity detected on api-prod-3,SECURITY,SECURITY-6
+Slow query log: 452 queries over 7760 ms on customers-aurora,DATABASE,DATABASE-5
+FYI: ALARM: CPUUtilization > 80% for 15 minutes on i-0a1b2c3d4e5f,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+[P2] Unhandled exception rate increased for notifications after release v4.7,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+waf blocked 434 sql injection attempts against auth,SECURITY,SECURITY-5
+application notifications returning 503 service unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Synthetic canary for auth checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+[P2] application auth returning 503 service unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+iam policy administratoraccess attached to user contractor-07 outside change window,SECURITY,SECURITY-2
+alarm: targetresponsetime > 990 ms on application load balancer,NETWORK,NETWORK-0
+[PagerDuty] ALARM: DatabaseConnections > 198 on inventory-ddb,DATABASE,DATABASE-0
+[PagerDuty] s3 bucket customer-uploads made public by jdoe,SECURITY,SECURITY-4
+Replica lag on inventory-ddb is 161 seconds,DATABASE,DATABASE-1
+Reserved instance coverage fell below 84% target,COST_BILLING,COST_BILLING-7
+"RDS instance orders-db storage-full event, writes failing",DATABASE,DATABASE-3
+Packet loss of 99% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+[P2] EFS file system PercentIOLimit at 85%,STORAGE,STORAGE-6
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+ALARM: CPUUtilization > 87% for 15 minutes on web-07,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Untagged resources accruing $7991 per day,COST_BILLING,COST_BILLING-5
+Deadlock detected in rds-prod-main on table orders,DATABASE,DATABASE-2
+"Load average on payments-api is 334, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Canary deployment of notifications v5.10 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Cost anomaly detected: EC2 spend up $2505 today in eu-west-1,COST_BILLING,COST_BILLING-1
+replica lag on customers-aurora is 306 seconds,DATABASE,DATABASE-1
+Filesystem / is 98% full on orders-svc,STORAGE,STORAGE-2
+Security group opened port 22 to 0.0.0.0/0 by admin-temp,SECURITY,SECURITY-8
+Database CPU at 91% on customers-aurora due to long running query,DATABASE,DATABASE-8
+"Log partition almost full on api-prod-3, 96% used",STORAGE,STORAGE-5
+Unhandled exception rate increased for checkout after release v4.23,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Elevated network latency to i-0a1b2c3d4e5f: 5743 ms round trip,NETWORK,NETWORK-6
+Security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+GuardDuty: CryptoCurrency mining activity detected on reporting-node,SECURITY,SECURITY-6
+Root account login detected from 203.0.113.45,SECURITY,SECURITY-9
+Error rate for checkout API at 95% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+ALARM: HTTPCode_Target_5XX_Count > 359 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+CloudTrail logging stopped by contractor-07,SECURITY,SECURITY-3
+96 failed console login attempts for user contractor-07 from 198.51.100.23,SECURITY,SECURITY-1
+Cost Explorer: S3 storage cost increase of $5334 this week,COST_BILLING,COST_BILLING-6
+[P2] Data transfer out charges spiked by $7582 in us-east-1,COST_BILLING,COST_BILLING-9
+efs file system percentiolimit at 96%,STORAGE,STORAGE-6
+WAF blocked 288 SQL injection attempts against auth,SECURITY,SECURITY-5
+deadlock detected in inventory-ddb on table orders,DATABASE,DATABASE-2
+S3 bucket backup-archive replication failed for 415 objects,STORAGE,STORAGE-3
+URGENT Application search returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+ALARM: disk usage 81% on /var on batch-worker-2,STORAGE,STORAGE-0
+[P2] DynamoDB table inventory-ddb ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Access key for ci-runner used from unusual location 198.51.100.23,SECURITY,SECURITY-7
+Database CPU at 81% on orders-db due to long running query,DATABASE,DATABASE-8
+[P2] Elevated network latency to web-01: 6004 ms round trip,NETWORK,NETWORK-6
+Error rate for search API at 92% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+lambda function search throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+billing alarm: estimatedcharges > $4511,COST_BILLING,COST_BILLING-8
+Backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+container for checkout in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+Billing alarm: EstimatedCharges > $1918,COST_BILLING,COST_BILLING-8
+ec2 status check failed for reporting-node; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+alarm: disk usage 82% on /var on api-prod-3,STORAGE,STORAGE-0
+Data transfer out charges spiked by $3244 in eu-west-1,COST_BILLING,COST_BILLING-9
+[P2] iam policy administratoraccess attached to user svc-deploy outside change window,SECURITY,SECURITY-2
+Synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+Route 53 health check failed for search.example.com,NETWORK,NETWORK-3
+AWS Budgets: actual spend exceeded 81% of monthly budget,COST_BILLING,COST_BILLING-0
+"Kubernetes node i-0a1b2c3d4e5f NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+DynamoDB table customers-aurora ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Deadlock detected in rds-prod-main on table orders,DATABASE,DATABASE-2
+Data transfer out charges spiked by $789 in us-east-1,COST_BILLING,COST_BILLING-9
+Unhandled exception rate increased for catalog after release v3.30,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+guardduty: cryptocurrency mining activity detected on i-09f8e7d6c5b4,SECURITY,SECURITY-6
+load balancer has 0 healthy targets in target group search-tg,NETWORK,NETWORK-7
+backup job for orders-db failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Cost Explorer: S3 storage cost increase of $7672 this week,COST_BILLING,COST_BILLING-6
+Replica lag on rds-prod-main is 395 seconds,DATABASE,DATABASE-1
+Filesystem / is 85% full on web-01,STORAGE,STORAGE-2
+cost explorer: s3 storage cost increase of $9094 this week,COST_BILLING,COST_BILLING-6
+"Log partition almost full on payments-api, 92% used",STORAGE,STORAGE-5
+alarm: httpcode_target_5xx_count > 257 for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+Billing alarm: EstimatedCharges > $6305,COST_BILLING,COST_BILLING-8
+deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+auto scaling group could not launch instances: insufficientinstancecapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+URGENT s3 bucket customer-uploads made public by ci-runner,SECURITY,SECURITY-4
+[P2] 295 failed console login attempts for user contractor-07 from 198.51.100.23,SECURITY,SECURITY-1
+"RDS instance customers-aurora storage-full event, writes failing",DATABASE,DATABASE-3
+Reserved instance coverage fell below 97% target,COST_BILLING,COST_BILLING-7
+ALARM: TargetResponseTime > 7570 ms on application load balancer,NETWORK,NETWORK-0
+Synthetic canary for search checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+data transfer out charges spiked by $3197 in us-west-2,COST_BILLING,COST_BILLING-9
+"Instance orders-svc out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+forecasted monthly cost exceeds budget by $2203,COST_BILLING,COST_BILLING-2
+aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+Replica lag on inventory-ddb is 427 seconds,DATABASE,DATABASE-1
+filesystem / is 86% full on orders-svc,STORAGE,STORAGE-2
+"Log partition almost full on batch-worker-2, 85% used",STORAGE,STORAGE-5
+Container for search in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+AWS Budgets: actual spend exceeded 87% of monthly budget,COST_BILLING,COST_BILLING-0
+Canary deployment of catalog v9.22 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Snapshot creation failed: volume web-01 in error state,STORAGE,STORAGE-7
+aurora failover initiated for cluster orders-db,DATABASE,DATABASE-6
+"ebs volume queue length high, iops limit reached on web-07",STORAGE,STORAGE-4
+guardduty finding: unauthorizedaccess:ec2/sshbruteforce against api-prod-3 from 203.0.113.45,SECURITY,SECURITY-0
+alarm: httpcode_target_5xx_count > 16 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+ALARM: CPUUtilization > 85% for 15 minutes on web-07,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Unexpected NAT gateway data processing charges of $5118,COST_BILLING,COST_BILLING-3
+ALARM: HTTPCode_Target_5XX_Count > 276 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+110 failed console login attempts for user svc-deploy from 185.220.101.4,SECURITY,SECURITY-1
+s3 put requests returning slowdown on bucket data-lake-raw,STORAGE,STORAGE-8
+codepipeline stage deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Access key for admin-temp used from unusual location 185.220.101.4,SECURITY,SECURITY-7
+438 failed console login attempts for user svc-deploy from 192.0.2.88,SECURITY,SECURITY-1
+high cpu usage detected on instance orders-svc (91%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+URGENT access key for contractor-07 used from unusual location 185.220.101.4,SECURITY,SECURITY-7
+Aurora failover initiated for cluster orders-db,DATABASE,DATABASE-6
+nullpointerexception spike in auth logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+elevated network latency to orders-svc: 6589 ms round trip,NETWORK,NETWORK-6
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against orders-svc from 203.0.113.45,SECURITY,SECURITY-0
+[PagerDuty] Elevated network latency to batch-worker-2: 3538 ms round trip,NETWORK,NETWORK-6
+EC2 status check failed for web-01; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Untagged resources accruing $4090 per day,COST_BILLING,COST_BILLING-5
+Error rate for notifications API at 83% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+Untagged resources accruing $6301 per day,COST_BILLING,COST_BILLING-5
+Access key for contractor-07 used from unusual location 185.220.101.4,SECURITY,SECURITY-7
+Packet loss of 86% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+"log partition almost full on orders-svc, 87% used",STORAGE,STORAGE-5
+ALARM: disk usage 89% on /var on web-07,STORAGE,STORAGE-0
+"Load average on i-09f8e7d6c5b4 is 146, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+Backup job for customers-aurora failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+Load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+Data transfer out charges spiked by $4445 in us-east-1,COST_BILLING,COST_BILLING-9
+[P2] Unexpected NAT gateway data processing charges of $5348,COST_BILLING,COST_BILLING-3
+"RDS instance customers-aurora storage-full event, writes failing",DATABASE,DATABASE-3
+high cpu usage detected on instance reporting-node (88%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+database cpu at 81% on rds-prod-main due to long running query,DATABASE,DATABASE-8
+ALARM: DatabaseConnections > 258 on customers-aurora,DATABASE,DATABASE-0
+Packet loss of 90% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+container for notifications in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+Too many connections error from application to inventory-ddb,DATABASE,DATABASE-7
+cloudtrail logging stopped by admin-temp,SECURITY,SECURITY-3
+NullPointerException spike in catalog logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+URGENT CloudTrail logging stopped by ci-runner,SECURITY,SECURITY-3
+[P2] AWS Budgets: actual spend exceeded 95% of monthly budget,COST_BILLING,COST_BILLING-0
+Root account login detected from 203.0.113.45,SECURITY,SECURITY-9
+unexpected nat gateway data processing charges of $8731,COST_BILLING,COST_BILLING-3
+URGENT High CPU usage detected on instance api-prod-3 (99%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Unexpected NAT gateway data processing charges of $2889,COST_BILLING,COST_BILLING-3
+canary deployment of notifications v5.23 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+GuardDuty: CryptoCurrency mining activity detected on reporting-node,SECURITY,SECURITY-6
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against orders-svc from 198.51.100.23,SECURITY,SECURITY-0
+GuardDuty: CryptoCurrency mining activity detected on i-0a1b2c3d4e5f,SECURITY,SECURITY-6
+URGENT auto scaling group could not launch instances: insufficientinstancecapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+CodePipeline stage Deploy failed for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+CloudTrail logging stopped by ci-runner,SECURITY,SECURITY-3
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against ip-10-0-3-17 from 192.0.2.88,SECURITY,SECURITY-0
+315 failed console login attempts for user admin-temp from 192.0.2.88,SECURITY,SECURITY-1
+"[PagerDuty] Kubernetes node batch-worker-2 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Billing alarm: EstimatedCharges > $6638,COST_BILLING,COST_BILLING-8
+ALARM: TargetResponseTime > 1000 ms on application load balancer,NETWORK,NETWORK-0
+snapshot creation failed: volume payments-api in error state,STORAGE,STORAGE-7
+Lambda function catalog throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+URGENT iam policy administratoraccess attached to user jdoe outside change window,SECURITY,SECURITY-2
+"Log partition almost full on i-0a1b2c3d4e5f, 95% used",STORAGE,STORAGE-5
+Database CPU at 91% on orders-db due to long running query,DATABASE,DATABASE-8
+URGENT EBS volume attached to web-07 BurstBalance below 10%,STORAGE,STORAGE-1
+Access key for contractor-07 used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+WAF blocked 380 SQL injection attempts against checkout,SECURITY,SECURITY-5
+Forecasted monthly cost exceeds budget by $3735,COST_BILLING,COST_BILLING-2
+NullPointerException spike in catalog logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+Security group opened port 22 to 0.0.0.0/0 by svc-deploy,SECURITY,SECURITY-8
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+Reserved instance coverage fell below 83% target,COST_BILLING,COST_BILLING-7
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+Cost anomaly detected: EC2 spend up $2073 today in us-east-1,COST_BILLING,COST_BILLING-1
+Route 53 health check failed for search.example.com,NETWORK,NETWORK-3
+AWS Budgets: actual spend exceeded 94% of monthly budget,COST_BILLING,COST_BILLING-0
+Error rate for notifications API at 90% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+Reserved instance coverage fell below 83% target,COST_BILLING,COST_BILLING-7
+Cost anomaly detected: EC2 spend up $6586 today in us-east-1,COST_BILLING,COST_BILLING-1
+IAM policy AdministratorAccess attached to user jdoe outside change window,SECURITY,SECURITY-2
+GuardDuty: CryptoCurrency mining activity detected on api-prod-3,SECURITY,SECURITY-6
+MemoryUtilization above threshold on web-07: 81% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+EFS file system PercentIOLimit at 84%,STORAGE,STORAGE-6
+Slow query log: 77 queries over 5551 ms on rds-prod-main,DATABASE,DATABASE-5
+"RDS instance analytics-pg storage-full event, writes failing",DATABASE,DATABASE-3
+S3 bucket prod-logs replication failed for 7 objects,STORAGE,STORAGE-3
+[P2] DNS resolution failures for search internal endpoint,NETWORK,NETWORK-4
+Security group opened port 22 to 0.0.0.0/0 by jdoe,SECURITY,SECURITY-8
+guardduty: cryptocurrency mining activity detected on orders-svc,SECURITY,SECURITY-6
+NullPointerException spike in search logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+AWS Budgets: actual spend exceeded 83% of monthly budget,COST_BILLING,COST_BILLING-0
+"Load average on web-07 is 73, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+S3 bucket backup-archive made public by contractor-07,SECURITY,SECURITY-4
+too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+untagged resources accruing $6056 per day,COST_BILLING,COST_BILLING-5
+FYI: dns resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-west-2,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Container for catalog in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+DNS resolution failures for search internal endpoint,NETWORK,NETWORK-4
+"URGENT load average on api-prod-3 is 434, exceeds number of vcpus",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+"instance web-01 out of memory, oom killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+ALARM: CPUUtilization > 80% for 15 minutes on payments-api,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+ECS service checkout cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+URGENT efs file system percentiolimit at 98%,STORAGE,STORAGE-6
+Aurora failover initiated for cluster inventory-ddb,DATABASE,DATABASE-6
+S3 bucket prod-logs made public by ci-runner,SECURITY,SECURITY-4
+"RDS instance analytics-pg storage-full event, writes failing",DATABASE,DATABASE-3
+Unexpected NAT gateway data processing charges of $9333,COST_BILLING,COST_BILLING-3
+[P2] deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+Slow query log: 51 queries over 7200 ms on analytics-pg,DATABASE,DATABASE-5
+"EBS volume queue length high, IOPS limit reached on batch-worker-2",STORAGE,STORAGE-4
+Untagged resources accruing $7218 per day,COST_BILLING,COST_BILLING-5
+dns resolution failures for catalog internal endpoint,NETWORK,NETWORK-4
+alarm: disk usage 84% on /var on reporting-node,STORAGE,STORAGE-0
+Replica lag on customers-aurora is 244 seconds,DATABASE,DATABASE-1
+Forecasted monthly cost exceeds budget by $5623,COST_BILLING,COST_BILLING-2
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+ebs volume attached to ip-10-0-3-17 burstbalance below 10%,STORAGE,STORAGE-1
+CodePipeline stage Deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Reserved instance coverage fell below 83% target,COST_BILLING,COST_BILLING-7
+EC2 status check failed for i-0a1b2c3d4e5f; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Savings Plan utilization dropped to 80%,COST_BILLING,COST_BILLING-4
+Unhandled exception rate increased for catalog after release v3.4,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Forecasted monthly cost exceeds budget by $2392,COST_BILLING,COST_BILLING-2
+URGENT VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+DNS resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+Lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+[PagerDuty] NAT gateway ErrorPortAllocation count 430 in us-east-1,NETWORK,NETWORK-5
+Elevated network latency to web-07: 4516 ms round trip,NETWORK,NETWORK-6
+FYI: Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+[P2] Direct Connect connection state changed to down,NETWORK,NETWORK-8
+CloudTrail logging stopped by ci-runner,SECURITY,SECURITY-3
+NullPointerException spike in search logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+FYI: ALARM: disk usage 81% on /var on payments-api,STORAGE,STORAGE-0
+backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+[PagerDuty] Access key for jdoe used from unusual location 203.0.113.45,SECURITY,SECURITY-7
+GuardDuty: CryptoCurrency mining activity detected on api-prod-3,SECURITY,SECURITY-6
+EC2 status check failed for i-09f8e7d6c5b4; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Database CPU at 88% on customers-aurora due to long running query,DATABASE,DATABASE-8
+EBS volume attached to reporting-node BurstBalance below 10%,STORAGE,STORAGE-1
+Backup job for rds-prod-main failed: snapshot quota exceeded,DATABASE,DATABASE-9
+High CPU usage detected on instance orders-svc (83%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+[P2] TLS handshake timeouts between API gateway and checkout backend,NETWORK,NETWORK-9
+[PagerDuty] vpn tunnel to corporate network is down,NETWORK,NETWORK-2
+272 failed console login attempts for user admin-temp from 198.51.100.23,SECURITY,SECURITY-1
+direct connect connection state changed to down,NETWORK,NETWORK-8
+URGENT EBS volume attached to orders-svc BurstBalance below 10%,STORAGE,STORAGE-1
+Savings Plan utilization dropped to 93%,COST_BILLING,COST_BILLING-4
+Load balancer has 0 healthy targets in target group notifications-tg,NETWORK,NETWORK-7
+application notifications returning 503 service unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+FYI: GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against reporting-node from 185.220.101.4,SECURITY,SECURITY-0
+FYI: Aurora failover initiated for cluster orders-db,DATABASE,DATABASE-6
+Deadlock detected in analytics-pg on table orders,DATABASE,DATABASE-2
+[PagerDuty] Synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+codepipeline stage deploy failed for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Application notifications returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+IAM policy AdministratorAccess attached to user jdoe outside change window,SECURITY,SECURITY-2
+Billing alarm: EstimatedCharges > $1753,COST_BILLING,COST_BILLING-8
+AWS Budgets: actual spend exceeded 91% of monthly budget,COST_BILLING,COST_BILLING-0
+"EBS volume queue length high, IOPS limit reached on orders-svc",STORAGE,STORAGE-4
+"Load average on i-09f8e7d6c5b4 is 379, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Billing alarm: EstimatedCharges > $7409,COST_BILLING,COST_BILLING-8
+Access key for contractor-07 used from unusual location 203.0.113.45,SECURITY,SECURITY-7
+EBS volume attached to i-09f8e7d6c5b4 BurstBalance below 10%,STORAGE,STORAGE-1
+DNS resolution failures for auth internal endpoint,NETWORK,NETWORK-4
+Unhandled exception rate increased for search after release v4.28,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Unhandled exception rate increased for notifications after release v6.24,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Canary deployment of checkout v3.14 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+EFS file system PercentIOLimit at 95%,STORAGE,STORAGE-6
+synthetic canary for search checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+Database CPU at 98% on rds-prod-main due to long running query,DATABASE,DATABASE-8
+memoryutilization above threshold on api-prod-3: 88% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+URGENT access key for admin-temp used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+Savings Plan utilization dropped to 99%,COST_BILLING,COST_BILLING-4
+Cost Explorer: S3 storage cost increase of $5227 this week,COST_BILLING,COST_BILLING-6
+Inode usage 88% on data volume of ip-10-0-3-17,STORAGE,STORAGE-9
+"instance api-prod-3 out of memory, oom killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+[PagerDuty] snapshot creation failed: volume i-0a1b2c3d4e5f in error state,STORAGE,STORAGE-7
+Slow query log: 103 queries over 1213 ms on analytics-pg,DATABASE,DATABASE-5
+URGENT Savings Plan utilization dropped to 98%,COST_BILLING,COST_BILLING-4
+"Deployment v5.9 of search failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Filesystem / is 87% full on api-prod-3,STORAGE,STORAGE-2
+URGENT CloudTrail logging stopped by svc-deploy,SECURITY,SECURITY-3
+ALARM: disk usage 87% on /var on web-07,STORAGE,STORAGE-0
+codepipeline stage deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+Aurora failover initiated for cluster inventory-ddb,DATABASE,DATABASE-6
+Route 53 health check failed for auth.example.com,NETWORK,NETWORK-3
+[PagerDuty] Reserved instance coverage fell below 91% target,COST_BILLING,COST_BILLING-7
+Cost anomaly detected: EC2 spend up $5765 today in us-east-1,COST_BILLING,COST_BILLING-1
+S3 bucket prod-logs made public by ci-runner,SECURITY,SECURITY-4
+Security group opened port 22 to 0.0.0.0/0 by ci-runner,SECURITY,SECURITY-8
+EC2 status check failed for reporting-node; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+efs file system percentiolimit at 96%,STORAGE,STORAGE-6
+"Log partition almost full on reporting-node, 80% used",STORAGE,STORAGE-5
+[PagerDuty] Lambda function search throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+inode usage 88% on data volume of payments-api,STORAGE,STORAGE-9
+ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+ALARM: CPUUtilization > 90% for 15 minutes on payments-api,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+database cpu at 80% on customers-aurora due to long running query,DATABASE,DATABASE-8
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+s3 bucket customer-uploads replication failed for 10 objects,STORAGE,STORAGE-3
+EBS volume attached to i-09f8e7d6c5b4 BurstBalance below 10%,STORAGE,STORAGE-1
+Synthetic canary for auth checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+FYI: IAM policy AdministratorAccess attached to user contractor-07 outside change window,SECURITY,SECURITY-2
+S3 bucket prod-logs replication failed for 320 objects,STORAGE,STORAGE-3
+Billing alarm: EstimatedCharges > $5132,COST_BILLING,COST_BILLING-8
+ALARM: CPUUtilization > 86% for 15 minutes on web-07,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Billing alarm: EstimatedCharges > $2953,COST_BILLING,COST_BILLING-8
+ALARM: DatabaseConnections > 253 on orders-db,DATABASE,DATABASE-0
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+URGENT S3 bucket prod-logs replication failed for 285 objects,STORAGE,STORAGE-3
+[PagerDuty] ECS service auth cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Route 53 health check failed for catalog.example.com,NETWORK,NETWORK-3
+ALARM: TargetResponseTime > 8762 ms on application load balancer,NETWORK,NETWORK-0
+IAM policy AdministratorAccess attached to user admin-temp outside change window,SECURITY,SECURITY-2
+Security group opened port 22 to 0.0.0.0/0 by svc-deploy,SECURITY,SECURITY-8
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+"FYI: load average on reporting-node is 91, exceeds number of vcpus",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+AWS Budgets: actual spend exceeded 80% of monthly budget,COST_BILLING,COST_BILLING-0
+TLS handshake timeouts between API gateway and auth backend,NETWORK,NETWORK-9
+Snapshot creation failed: volume batch-worker-2 in error state,STORAGE,STORAGE-7
+S3 PUT requests returning SlowDown on bucket data-lake-raw,STORAGE,STORAGE-8
+Backup job for rds-prod-main failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Packet loss of 97% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+EC2 status check failed for reporting-node; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+dynamodb table orders-db provisionedthroughputexceededexception on writes,DATABASE,DATABASE-4
+EC2 status check failed for i-0a1b2c3d4e5f; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Inode usage 96% on data volume of batch-worker-2,STORAGE,STORAGE-9
+s3 bucket data-lake-raw replication failed for 149 objects,STORAGE,STORAGE-3
+Forecasted monthly cost exceeds budget by $383,COST_BILLING,COST_BILLING-2
+Unhandled exception rate increased for auth after release v7.3,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+[PagerDuty] EFS file system PercentIOLimit at 96%,STORAGE,STORAGE-6
+Aurora failover initiated for cluster inventory-ddb,DATABASE,DATABASE-6
+[PagerDuty] Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+CodePipeline stage Deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+ALARM: HTTPCode_Target_5XX_Count > 128 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+TLS handshake timeouts between API gateway and checkout backend,NETWORK,NETWORK-9
+URGENT VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+vpn tunnel to corporate network is down,NETWORK,NETWORK-2
+ALARM: CPUUtilization > 88% for 15 minutes on i-09f8e7d6c5b4,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+dns resolution failures for checkout internal endpoint,NETWORK,NETWORK-4
+Data transfer out charges spiked by $280 in us-west-2,COST_BILLING,COST_BILLING-9
+URGENT Inode usage 84% on data volume of web-07,STORAGE,STORAGE-9
+[P2] S3 bucket customer-uploads replication failed for 340 objects,STORAGE,STORAGE-3
+Forecasted monthly cost exceeds budget by $5376,COST_BILLING,COST_BILLING-2
+Elevated network latency to web-07: 7023 ms round trip,NETWORK,NETWORK-6
+EC2 status check failed for batch-worker-2; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+[P2] NullPointerException spike in search logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+TLS handshake timeouts between API gateway and auth backend,NETWORK,NETWORK-9
+"Kubernetes node payments-api NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+alarm: disk usage 95% on /var on payments-api,STORAGE,STORAGE-0
+MemoryUtilization above threshold on i-09f8e7d6c5b4: 92% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Canary deployment of notifications v2.16 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Untagged resources accruing $2102 per day,COST_BILLING,COST_BILLING-5
+untagged resources accruing $6977 per day,COST_BILLING,COST_BILLING-5
+FYI: Billing alarm: EstimatedCharges > $6379,COST_BILLING,COST_BILLING-8
+S3 bucket customer-uploads replication failed for 453 objects,STORAGE,STORAGE-3
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+ALARM: disk usage 98% on /var on web-01,STORAGE,STORAGE-0
+deadlock detected in inventory-ddb on table orders,DATABASE,DATABASE-2
+FYI: Elevated network latency to i-09f8e7d6c5b4: 5123 ms round trip,NETWORK,NETWORK-6
+EFS file system PercentIOLimit at 82%,STORAGE,STORAGE-6
+canary deployment of catalog v1.7 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Aurora failover initiated for cluster rds-prod-main,DATABASE,DATABASE-6
+Savings Plan utilization dropped to 80%,COST_BILLING,COST_BILLING-4
+Cost anomaly detected: EC2 spend up $7132 today in eu-west-1,COST_BILLING,COST_BILLING-1
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+Load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+aws budgets: actual spend exceeded 89% of monthly budget,COST_BILLING,COST_BILLING-0
+TLS handshake timeouts between API gateway and notifications backend,NETWORK,NETWORK-9
+"Load average on web-01 is 427, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+"Instance payments-api out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+DynamoDB table rds-prod-main ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Snapshot creation failed: volume i-0a1b2c3d4e5f in error state,STORAGE,STORAGE-7
+Elevated network latency to batch-worker-2: 3735 ms round trip,NETWORK,NETWORK-6
+load balancer has 0 healthy targets in target group catalog-tg,NETWORK,NETWORK-7
+Billing alarm: EstimatedCharges > $1473,COST_BILLING,COST_BILLING-8
+[P2] Access key for admin-temp used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+guardduty: cryptocurrency mining activity detected on payments-api,SECURITY,SECURITY-6
+DNS resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+too many connections error from application to inventory-ddb,DATABASE,DATABASE-7
+Aurora failover initiated for cluster orders-db,DATABASE,DATABASE-6
+URGENT 172 failed console login attempts for user ci-runner from 203.0.113.45,SECURITY,SECURITY-1
+381 failed console login attempts for user contractor-07 from 203.0.113.45,SECURITY,SECURITY-1
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+FYI: Synthetic canary for search checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+"Deployment v1.6 of notifications failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Elevated network latency to batch-worker-2: 6213 ms round trip,NETWORK,NETWORK-6
+FYI: EFS file system PercentIOLimit at 93%,STORAGE,STORAGE-6
+slow query log: 141 queries over 3190 ms on orders-db,DATABASE,DATABASE-5
+Inode usage 96% on data volume of batch-worker-2,STORAGE,STORAGE-9
+FYI: ALARM: HTTPCode_Target_5XX_Count > 93 for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+"EBS volume queue length high, IOPS limit reached on api-prod-3",STORAGE,STORAGE-4
+S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+Access key for svc-deploy used from unusual location 198.51.100.23,SECURITY,SECURITY-7
+S3 PUT requests returning SlowDown on bucket backup-archive,STORAGE,STORAGE-8
+reserved instance coverage fell below 98% target,COST_BILLING,COST_BILLING-7
+Replica lag on orders-db is 66 seconds,DATABASE,DATABASE-1
+URGENT Route 53 health check failed for search.example.com,NETWORK,NETWORK-3
+"Load average on api-prod-3 is 276, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Savings Plan utilization dropped to 83%,COST_BILLING,COST_BILLING-4
+TLS handshake timeouts between API gateway and catalog backend,NETWORK,NETWORK-9
+"RDS instance analytics-pg storage-full event, writes failing",DATABASE,DATABASE-3
+Replica lag on orders-db is 81 seconds,DATABASE,DATABASE-1
+NullPointerException spike in notifications logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+URGENT S3 bucket prod-logs made public by admin-temp,SECURITY,SECURITY-4
+401 failed console login attempts for user svc-deploy from 198.51.100.23,SECURITY,SECURITY-1
+Unexpected NAT gateway data processing charges of $3201,COST_BILLING,COST_BILLING-3
+CloudTrail logging stopped by ci-runner,SECURITY,SECURITY-3
+snapshot creation failed: volume i-09f8e7d6c5b4 in error state,STORAGE,STORAGE-7
+EBS volume attached to i-0a1b2c3d4e5f BurstBalance below 10%,STORAGE,STORAGE-1
+unhandled exception rate increased for catalog after release v7.15,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+ECS service notifications cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Savings Plan utilization dropped to 85%,COST_BILLING,COST_BILLING-4
+"RDS instance analytics-pg storage-full event, writes failing",DATABASE,DATABASE-3
+Aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+IAM policy AdministratorAccess attached to user contractor-07 outside change window,SECURITY,SECURITY-2
+URGENT Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+CloudTrail logging stopped by ci-runner,SECURITY,SECURITY-3
+Filesystem / is 85% full on batch-worker-2,STORAGE,STORAGE-2
+"Instance i-09f8e7d6c5b4 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+vpn tunnel to corporate network is down,NETWORK,NETWORK-2
+Packet loss of 84% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+ALARM: disk usage 98% on /var on web-07,STORAGE,STORAGE-0
+Untagged resources accruing $5610 per day,COST_BILLING,COST_BILLING-5
+Reserved instance coverage fell below 97% target,COST_BILLING,COST_BILLING-7
+Deadlock detected in inventory-ddb on table orders,DATABASE,DATABASE-2
+ALARM: TargetResponseTime > 2795 ms on application load balancer,NETWORK,NETWORK-0
+Backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+S3 bucket prod-logs replication failed for 45 objects,STORAGE,STORAGE-3
+[PagerDuty] deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+ecs service notifications cannot place tasks: insufficient cpu in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+[P2] Savings Plan utilization dropped to 96%,COST_BILLING,COST_BILLING-4
+Savings Plan utilization dropped to 93%,COST_BILLING,COST_BILLING-4
+"Kubernetes node payments-api NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+[PagerDuty] NAT gateway ErrorPortAllocation count 220 in us-west-2,NETWORK,NETWORK-5
+Security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+ALARM: DatabaseConnections > 245 on orders-db,DATABASE,DATABASE-0
+[P2] Packet loss of 98% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+access key for admin-temp used from unusual location 185.220.101.4,SECURITY,SECURITY-7
+Canary deployment of checkout v4.12 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Container for checkout in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+filesystem / is 95% full on orders-svc,STORAGE,STORAGE-2
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+GuardDuty: CryptoCurrency mining activity detected on batch-worker-2,SECURITY,SECURITY-6
+Snapshot creation failed: volume api-prod-3 in error state,STORAGE,STORAGE-7
+Replica lag on orders-db is 220 seconds,DATABASE,DATABASE-1
+"URGENT kubernetes node i-0a1b2c3d4e5f notready, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+76 failed console login attempts for user admin-temp from 198.51.100.23,SECURITY,SECURITY-1
+High CPU usage detected on instance api-prod-3 (97%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+DNS resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+EBS volume attached to payments-api BurstBalance below 10%,STORAGE,STORAGE-1
+s3 bucket backup-archive made public by svc-deploy,SECURITY,SECURITY-4
+Synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+Backup job for customers-aurora failed: snapshot quota exceeded,DATABASE,DATABASE-9
+NullPointerException spike in search logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+memoryutilization above threshold on i-09f8e7d6c5b4: 89% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+FYI: Container for notifications in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+"Log partition almost full on i-09f8e7d6c5b4, 90% used",STORAGE,STORAGE-5
+Security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+ALARM: disk usage 90% on /var on orders-svc,STORAGE,STORAGE-0
+FYI: Backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+FYI: CloudTrail logging stopped by svc-deploy,SECURITY,SECURITY-3
+"[P2] deployment v3.14 of checkout failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+S3 bucket backup-archive replication failed for 137 objects,STORAGE,STORAGE-3
+URGENT alarm: databaseconnections > 488 on rds-prod-main,DATABASE,DATABASE-0
+Inode usage 80% on data volume of payments-api,STORAGE,STORAGE-9
+Access key for jdoe used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+"EBS volume queue length high, IOPS limit reached on api-prod-3",STORAGE,STORAGE-4
+Elevated network latency to i-09f8e7d6c5b4: 1792 ms round trip,NETWORK,NETWORK-6
+Deadlock detected in orders-db on table orders,DATABASE,DATABASE-2
+Cost Explorer: S3 storage cost increase of $4464 this week,COST_BILLING,COST_BILLING-6
+Aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+Data transfer out charges spiked by $6545 in us-west-2,COST_BILLING,COST_BILLING-9
+Unhandled exception rate increased for auth after release v8.1,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Billing alarm: EstimatedCharges > $6398,COST_BILLING,COST_BILLING-8
+slow query log: 441 queries over 4008 ms on inventory-ddb,DATABASE,DATABASE-5
+FYI: Cost anomaly detected: EC2 spend up $4135 today in eu-west-1,COST_BILLING,COST_BILLING-1
+NAT gateway ErrorPortAllocation count 447 in eu-west-1,NETWORK,NETWORK-5
+[PagerDuty] Too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+NAT gateway ErrorPortAllocation count 35 in us-west-2,NETWORK,NETWORK-5
+High CPU usage detected on instance reporting-node (86%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Container for search in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+iam policy administratoraccess attached to user jdoe outside change window,SECURITY,SECURITY-2
+S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+canary deployment of checkout v4.21 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+root account login detected from 203.0.113.45,SECURITY,SECURITY-9
+Application catalog returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+ALARM: CPUUtilization > 87% for 15 minutes on i-0a1b2c3d4e5f,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+NAT gateway ErrorPortAllocation count 254 in us-west-2,NETWORK,NETWORK-5
+MemoryUtilization above threshold on web-01: 98% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Canary deployment of catalog v6.18 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+[P2] Untagged resources accruing $3690 per day,COST_BILLING,COST_BILLING-5
+Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+268 failed console login attempts for user svc-deploy from 198.51.100.23,SECURITY,SECURITY-1
+[P2] Application catalog returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+EFS file system PercentIOLimit at 86%,STORAGE,STORAGE-6
+container for auth in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+[P2] TLS handshake timeouts between API gateway and auth backend,NETWORK,NETWORK-9
+Canary deployment of auth v8.10 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Replica lag on analytics-pg is 47 seconds,DATABASE,DATABASE-1
+Inode usage 85% on data volume of web-01,STORAGE,STORAGE-9
+vpn tunnel to corporate network is down,NETWORK,NETWORK-2
+TLS handshake timeouts between API gateway and checkout backend,NETWORK,NETWORK-9
+ebs volume attached to batch-worker-2 burstbalance below 10%,STORAGE,STORAGE-1
+ALARM: DatabaseConnections > 312 on customers-aurora,DATABASE,DATABASE-0
+[P2] NAT gateway ErrorPortAllocation count 415 in us-east-1,NETWORK,NETWORK-5
+388 failed console login attempts for user svc-deploy from 185.220.101.4,SECURITY,SECURITY-1
+load balancer has 0 healthy targets in target group catalog-tg,NETWORK,NETWORK-7
+S3 PUT requests returning SlowDown on bucket backup-archive,STORAGE,STORAGE-8
+"Log partition almost full on ip-10-0-3-17, 83% used",STORAGE,STORAGE-5
+snapshot creation failed: volume payments-api in error state,STORAGE,STORAGE-7
+Synthetic canary for search checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+Container for checkout in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+NullPointerException spike in search logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+FYI: Route 53 health check failed for catalog.example.com,NETWORK,NETWORK-3
+Cost anomaly detected: EC2 spend up $1653 today in us-east-1,COST_BILLING,COST_BILLING-1
+"EBS volume queue length high, IOPS limit reached on orders-svc",STORAGE,STORAGE-4
+ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Untagged resources accruing $7488 per day,COST_BILLING,COST_BILLING-5
+Billing alarm: EstimatedCharges > $7739,COST_BILLING,COST_BILLING-8
+[PagerDuty] aws budgets: actual spend exceeded 92% of monthly budget,COST_BILLING,COST_BILLING-0
+Unhandled exception rate increased for auth after release v7.27,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Route 53 health check failed for catalog.example.com,NETWORK,NETWORK-3
+[PagerDuty] ALARM: TargetResponseTime > 6513 ms on application load balancer,NETWORK,NETWORK-0
+Error rate for catalog API at 85% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+[P2] replica lag on customers-aurora is 143 seconds,DATABASE,DATABASE-1
+FYI: container for notifications in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+URGENT ALARM: DatabaseConnections > 206 on orders-db,DATABASE,DATABASE-0
+alarm: httpcode_target_5xx_count > 232 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+[P2] waf blocked 107 sql injection attempts against auth,SECURITY,SECURITY-5
+memoryutilization above threshold on batch-worker-2: 84% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+AWS Budgets: actual spend exceeded 83% of monthly budget,COST_BILLING,COST_BILLING-0
+[PagerDuty] Database CPU at 87% on customers-aurora due to long running query,DATABASE,DATABASE-8
+[P2] cost anomaly detected: ec2 spend up $2614 today in eu-west-1,COST_BILLING,COST_BILLING-1
+Snapshot creation failed: volume payments-api in error state,STORAGE,STORAGE-7
+Lambda function catalog throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Route 53 health check failed for auth.example.com,NETWORK,NETWORK-3
+AWS Budgets: actual spend exceeded 91% of monthly budget,COST_BILLING,COST_BILLING-0
+Packet loss of 97% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+high cpu usage detected on instance reporting-node (87%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Inode usage 80% on data volume of payments-api,STORAGE,STORAGE-9
+EFS file system PercentIOLimit at 93%,STORAGE,STORAGE-6
+IAM policy AdministratorAccess attached to user jdoe outside change window,SECURITY,SECURITY-2
+IAM policy AdministratorAccess attached to user svc-deploy outside change window,SECURITY,SECURITY-2
+ECS service checkout cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+packet loss of 80% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+NAT gateway ErrorPortAllocation count 487 in eu-west-1,NETWORK,NETWORK-5
+S3 bucket data-lake-raw replication failed for 395 objects,STORAGE,STORAGE-3
+Slow query log: 91 queries over 7540 ms on inventory-ddb,DATABASE,DATABASE-5
+DNS resolution failures for search internal endpoint,NETWORK,NETWORK-4
+"Instance ip-10-0-3-17 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+S3 bucket data-lake-raw made public by ci-runner,SECURITY,SECURITY-4
+[PagerDuty] ALARM: CPUUtilization > 93% for 15 minutes on api-prod-3,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Route 53 health check failed for notifications.example.com,NETWORK,NETWORK-3
+Database CPU at 94% on analytics-pg due to long running query,DATABASE,DATABASE-8
+"[PagerDuty] EBS volume queue length high, IOPS limit reached on ip-10-0-3-17",STORAGE,STORAGE-4
+cloudtrail logging stopped by contractor-07,SECURITY,SECURITY-3
+ALARM: TargetResponseTime > 1743 ms on application load balancer,NETWORK,NETWORK-0
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against ip-10-0-3-17 from 198.51.100.23,SECURITY,SECURITY-0
+waf blocked 287 sql injection attempts against auth,SECURITY,SECURITY-5
+Too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+Reserved instance coverage fell below 94% target,COST_BILLING,COST_BILLING-7
+"Deployment v6.12 of auth failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+"Kubernetes node web-07 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Inode usage 83% on data volume of reporting-node,STORAGE,STORAGE-9
+Slow query log: 125 queries over 1478 ms on orders-db,DATABASE,DATABASE-5
+Canary deployment of search v7.0 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+FYI: GuardDuty: CryptoCurrency mining activity detected on i-09f8e7d6c5b4,SECURITY,SECURITY-6
+URGENT Forecasted monthly cost exceeds budget by $1123,COST_BILLING,COST_BILLING-2
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-west-2,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Container for auth in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+Lambda function auth throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Untagged resources accruing $3688 per day,COST_BILLING,COST_BILLING-5
+FYI: alarm: databaseconnections > 244 on inventory-ddb,DATABASE,DATABASE-0
+[P2] Access key for ci-runner used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+195 failed console login attempts for user jdoe from 198.51.100.23,SECURITY,SECURITY-1
+Snapshot creation failed: volume payments-api in error state,STORAGE,STORAGE-7
+Access key for contractor-07 used from unusual location 185.220.101.4,SECURITY,SECURITY-7
+ALARM: DatabaseConnections > 30 on orders-db,DATABASE,DATABASE-0
+273 failed console login attempts for user jdoe from 185.220.101.4,SECURITY,SECURITY-1
+Replica lag on orders-db is 270 seconds,DATABASE,DATABASE-1
+Replica lag on analytics-pg is 82 seconds,DATABASE,DATABASE-1
+Untagged resources accruing $1808 per day,COST_BILLING,COST_BILLING-5
+"[PagerDuty] Kubernetes node i-0a1b2c3d4e5f NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Unhandled exception rate increased for notifications after release v9.15,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+EBS volume attached to i-09f8e7d6c5b4 BurstBalance below 10%,STORAGE,STORAGE-1
+Backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+ECS service auth cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+[P2] guardduty finding: unauthorizedaccess:ec2/sshbruteforce against batch-worker-2 from 203.0.113.45,SECURITY,SECURITY-0
+ALARM: HTTPCode_Target_5XX_Count > 493 for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+Security group opened port 22 to 0.0.0.0/0 by svc-deploy,SECURITY,SECURITY-8
+DynamoDB table inventory-ddb ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+NAT gateway ErrorPortAllocation count 450 in us-east-1,NETWORK,NETWORK-5
+High CPU usage detected on instance ip-10-0-3-17 (89%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+Cost Explorer: S3 storage cost increase of $8620 this week,COST_BILLING,COST_BILLING-6
+Cost Explorer: S3 storage cost increase of $3237 this week,COST_BILLING,COST_BILLING-6
+Container for auth in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+deadlock detected in inventory-ddb on table orders,DATABASE,DATABASE-2
+URGENT Error rate for search API at 87% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+NAT gateway ErrorPortAllocation count 367 in us-west-2,NETWORK,NETWORK-5
+"instance ip-10-0-3-17 out of memory, oom killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+S3 PUT requests returning SlowDown on bucket backup-archive,STORAGE,STORAGE-8
+[P2] Filesystem / is 88% full on reporting-node,STORAGE,STORAGE-2
+EC2 status check failed for reporting-node; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against reporting-node from 198.51.100.23,SECURITY,SECURITY-0
+Inode usage 95% on data volume of payments-api,STORAGE,STORAGE-9
+"Kubernetes node api-prod-3 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+[PagerDuty] route 53 health check failed for notifications.example.com,NETWORK,NETWORK-3
+EBS volume attached to payments-api BurstBalance below 10%,STORAGE,STORAGE-1
+snapshot creation failed: volume payments-api in error state,STORAGE,STORAGE-7
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+"ebs volume queue length high, iops limit reached on i-0a1b2c3d4e5f",STORAGE,STORAGE-4
+Too many connections error from application to rds-prod-main,DATABASE,DATABASE-7
+Lambda function auth throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+ALARM: HTTPCode_Target_5XX_Count > 76 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+"Load average on web-07 is 425, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+ALARM: CPUUtilization > 89% for 15 minutes on api-prod-3,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+WAF blocked 188 SQL injection attempts against search,SECURITY,SECURITY-5
+Inode usage 89% on data volume of batch-worker-2,STORAGE,STORAGE-9
+Savings Plan utilization dropped to 92%,COST_BILLING,COST_BILLING-4
+Data transfer out charges spiked by $3940 in us-east-1,COST_BILLING,COST_BILLING-9
+Load balancer has 0 healthy targets in target group search-tg,NETWORK,NETWORK-7
+GuardDuty: CryptoCurrency mining activity detected on batch-worker-2,SECURITY,SECURITY-6
+Deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+NullPointerException spike in search logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+GuardDuty: CryptoCurrency mining activity detected on ip-10-0-3-17,SECURITY,SECURITY-6
+savings plan utilization dropped to 96%,COST_BILLING,COST_BILLING-4
+S3 bucket customer-uploads made public by contractor-07,SECURITY,SECURITY-4
+s3 put requests returning slowdown on bucket data-lake-raw,STORAGE,STORAGE-8
+Too many connections error from application to orders-db,DATABASE,DATABASE-7
+auto scaling group could not launch instances: insufficientinstancecapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+direct connect connection state changed to down,NETWORK,NETWORK-8
+alarm: cpuutilization > 91% for 15 minutes on batch-worker-2,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Database CPU at 97% on orders-db due to long running query,DATABASE,DATABASE-8
+DynamoDB table inventory-ddb ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+"EBS volume queue length high, IOPS limit reached on i-0a1b2c3d4e5f",STORAGE,STORAGE-4
+GuardDuty: CryptoCurrency mining activity detected on i-09f8e7d6c5b4,SECURITY,SECURITY-6
+URGENT ALARM: disk usage 87% on /var on payments-api,STORAGE,STORAGE-0
+aws budgets: actual spend exceeded 98% of monthly budget,COST_BILLING,COST_BILLING-0
+s3 bucket customer-uploads made public by jdoe,SECURITY,SECURITY-4
+ALARM: CPUUtilization > 82% for 15 minutes on orders-svc,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+ALARM: disk usage 96% on /var on payments-api,STORAGE,STORAGE-0
+ECS service auth cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Replica lag on orders-db is 65 seconds,DATABASE,DATABASE-1
+WAF blocked 404 SQL injection attempts against catalog,SECURITY,SECURITY-5
+NAT gateway ErrorPortAllocation count 200 in us-east-1,NETWORK,NETWORK-5
+"Instance payments-api out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+Cost anomaly detected: EC2 spend up $9717 today in us-east-1,COST_BILLING,COST_BILLING-1
+Synthetic canary for auth checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+Replica lag on rds-prod-main is 216 seconds,DATABASE,DATABASE-1
+Billing alarm: EstimatedCharges > $804,COST_BILLING,COST_BILLING-8
+[P2] Billing alarm: EstimatedCharges > $8690,COST_BILLING,COST_BILLING-8
+ecs service checkout cannot place tasks: insufficient cpu in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+URGENT snapshot creation failed: volume i-09f8e7d6c5b4 in error state,STORAGE,STORAGE-7
+codepipeline stage deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"Load average on ip-10-0-3-17 is 363, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+CodePipeline stage Deploy failed for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"Instance batch-worker-2 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+URGENT load balancer has 0 healthy targets in target group notifications-tg,NETWORK,NETWORK-7
+NAT gateway ErrorPortAllocation count 110 in us-east-1,NETWORK,NETWORK-5
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+EC2 status check failed for payments-api; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Access key for ci-runner used from unusual location 203.0.113.45,SECURITY,SECURITY-7
+Unexpected NAT gateway data processing charges of $3145,COST_BILLING,COST_BILLING-3
+"Deployment v6.0 of checkout failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Forecasted monthly cost exceeds budget by $5852,COST_BILLING,COST_BILLING-2
+ALARM: DatabaseConnections > 322 on orders-db,DATABASE,DATABASE-0
+"kubernetes node reporting-node notready, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+FYI: Slow query log: 270 queries over 5147 ms on customers-aurora,DATABASE,DATABASE-5
+Replica lag on analytics-pg is 450 seconds,DATABASE,DATABASE-1
+[PagerDuty] AWS Budgets: actual spend exceeded 86% of monthly budget,COST_BILLING,COST_BILLING-0
+"Load average on ip-10-0-3-17 is 388, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Lambda function search throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+"EBS volume queue length high, IOPS limit reached on i-09f8e7d6c5b4",STORAGE,STORAGE-4
+"Load average on web-07 is 172, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+EBS volume attached to ip-10-0-3-17 BurstBalance below 10%,STORAGE,STORAGE-1
+[P2] direct connect connection state changed to down,NETWORK,NETWORK-8
+High CPU usage detected on instance payments-api (96%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+"Instance ip-10-0-3-17 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+Aurora failover initiated for cluster rds-prod-main,DATABASE,DATABASE-6
+ALARM: CPUUtilization > 90% for 15 minutes on web-01,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Too many connections error from application to orders-db,DATABASE,DATABASE-7
+waf blocked 370 sql injection attempts against search,SECURITY,SECURITY-5
+URGENT Container for auth in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+Error rate for checkout API at 85% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+URGENT Lambda function catalog throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+slow query log: 221 queries over 8043 ms on rds-prod-main,DATABASE,DATABASE-5
+waf blocked 133 sql injection attempts against catalog,SECURITY,SECURITY-5
+Inode usage 92% on data volume of batch-worker-2,STORAGE,STORAGE-9
+FYI: GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against payments-api from 192.0.2.88,SECURITY,SECURITY-0
+Root account login detected from 203.0.113.45,SECURITY,SECURITY-9
+Untagged resources accruing $4874 per day,COST_BILLING,COST_BILLING-5
+AWS Budgets: actual spend exceeded 95% of monthly budget,COST_BILLING,COST_BILLING-0
+Container for auth in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+Slow query log: 311 queries over 3876 ms on inventory-ddb,DATABASE,DATABASE-5
+Data transfer out charges spiked by $9670 in eu-west-1,COST_BILLING,COST_BILLING-9
+"Instance payments-api out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+ebs volume attached to web-07 burstbalance below 10%,STORAGE,STORAGE-1
+Elevated network latency to i-0a1b2c3d4e5f: 3075 ms round trip,NETWORK,NETWORK-6
+CloudTrail logging stopped by admin-temp,SECURITY,SECURITY-3
+Elevated network latency to api-prod-3: 6255 ms round trip,NETWORK,NETWORK-6
+EC2 status check failed for web-01; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+URGENT Cost anomaly detected: EC2 spend up $5279 today in eu-west-1,COST_BILLING,COST_BILLING-1
+Aurora failover initiated for cluster customers-aurora,DATABASE,DATABASE-6
+URGENT Load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+savings plan utilization dropped to 82%,COST_BILLING,COST_BILLING-4
+Cost Explorer: S3 storage cost increase of $6896 this week,COST_BILLING,COST_BILLING-6
+ALARM: TargetResponseTime > 1524 ms on application load balancer,NETWORK,NETWORK-0
+"Kubernetes node reporting-node NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+High CPU usage detected on instance reporting-node (90%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+alarm: targetresponsetime > 2325 ms on application load balancer,NETWORK,NETWORK-0
+EFS file system PercentIOLimit at 89%,STORAGE,STORAGE-6
+ALARM: DatabaseConnections > 230 on rds-prod-main,DATABASE,DATABASE-0
+guardduty finding: unauthorizedaccess:ec2/sshbruteforce against web-01 from 203.0.113.45,SECURITY,SECURITY-0
+Error rate for auth API at 97% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+data transfer out charges spiked by $6102 in us-east-1,COST_BILLING,COST_BILLING-9
+Filesystem / is 82% full on web-01,STORAGE,STORAGE-2
+"Kubernetes node payments-api NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Cost anomaly detected: EC2 spend up $4820 today in us-east-1,COST_BILLING,COST_BILLING-1
+Data transfer out charges spiked by $6460 in us-east-1,COST_BILLING,COST_BILLING-9
+Database CPU at 85% on rds-prod-main due to long running query,DATABASE,DATABASE-8
+Route 53 health check failed for catalog.example.com,NETWORK,NETWORK-3
+WAF blocked 467 SQL injection attempts against checkout,SECURITY,SECURITY-5
+MemoryUtilization above threshold on i-09f8e7d6c5b4: 82% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+alarm: databaseconnections > 114 on orders-db,DATABASE,DATABASE-0
+"Log partition almost full on web-01, 88% used",STORAGE,STORAGE-5
+URGENT WAF blocked 497 SQL injection attempts against search,SECURITY,SECURITY-5
+URGENT S3 PUT requests returning SlowDown on bucket backup-archive,STORAGE,STORAGE-8
+Canary deployment of notifications v1.18 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+URGENT ECS service checkout cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Snapshot creation failed: volume i-09f8e7d6c5b4 in error state,STORAGE,STORAGE-7
+AWS Budgets: actual spend exceeded 90% of monthly budget,COST_BILLING,COST_BILLING-0
+Error rate for auth API at 89% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+container for catalog in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+inode usage 86% on data volume of payments-api,STORAGE,STORAGE-9
+ec2 status check failed for i-09f8e7d6c5b4; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+S3 PUT requests returning SlowDown on bucket prod-logs,STORAGE,STORAGE-8
+WAF blocked 323 SQL injection attempts against notifications,SECURITY,SECURITY-5
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against batch-worker-2 from 192.0.2.88,SECURITY,SECURITY-0
+Savings Plan utilization dropped to 92%,COST_BILLING,COST_BILLING-4
+"Log partition almost full on web-01, 92% used",STORAGE,STORAGE-5
+s3 put requests returning slowdown on bucket data-lake-raw,STORAGE,STORAGE-8
+Data transfer out charges spiked by $2575 in us-west-2,COST_BILLING,COST_BILLING-9
+MemoryUtilization above threshold on api-prod-3: 88% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Cost anomaly detected: EC2 spend up $3678 today in eu-west-1,COST_BILLING,COST_BILLING-1
+Slow query log: 437 queries over 2389 ms on customers-aurora,DATABASE,DATABASE-5
+guardduty: cryptocurrency mining activity detected on web-07,SECURITY,SECURITY-6
+DynamoDB table orders-db ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Canary deployment of catalog v6.2 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+"Load average on api-prod-3 is 108, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Application auth returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+EBS volume attached to ip-10-0-3-17 BurstBalance below 10%,STORAGE,STORAGE-1
+URGENT Synthetic canary for search checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+ALARM: HTTPCode_Target_5XX_Count > 8 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+Data transfer out charges spiked by $9622 in us-east-1,COST_BILLING,COST_BILLING-9
+synthetic canary for auth checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+NAT gateway ErrorPortAllocation count 248 in us-east-1,NETWORK,NETWORK-5
+Lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+MemoryUtilization above threshold on batch-worker-2: 88% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Load balancer has 0 healthy targets in target group search-tg,NETWORK,NETWORK-7
+Lambda function auth throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Packet loss of 88% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+URGENT ALARM: CPUUtilization > 80% for 15 minutes on ip-10-0-3-17,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+auto scaling group could not launch instances: insufficientinstancecapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+too many connections error from application to orders-db,DATABASE,DATABASE-7
+Deadlock detected in analytics-pg on table orders,DATABASE,DATABASE-2
+[PagerDuty] ALARM: disk usage 83% on /var on i-09f8e7d6c5b4,STORAGE,STORAGE-0
+URGENT alarm: targetresponsetime > 1527 ms on application load balancer,NETWORK,NETWORK-0
+Deadlock detected in analytics-pg on table orders,DATABASE,DATABASE-2
+"Kubernetes node ip-10-0-3-17 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Data transfer out charges spiked by $1843 in us-west-2,COST_BILLING,COST_BILLING-9
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against orders-svc from 192.0.2.88,SECURITY,SECURITY-0
+Savings Plan utilization dropped to 86%,COST_BILLING,COST_BILLING-4
+Cost Explorer: S3 storage cost increase of $4728 this week,COST_BILLING,COST_BILLING-6
+DynamoDB table inventory-ddb ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Route 53 health check failed for checkout.example.com,NETWORK,NETWORK-3
+Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+"EBS volume queue length high, IOPS limit reached on batch-worker-2",STORAGE,STORAGE-4
+URGENT CodePipeline stage Deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+FYI: S3 bucket customer-uploads made public by svc-deploy,SECURITY,SECURITY-4
+Database CPU at 90% on inventory-ddb due to long running query,DATABASE,DATABASE-8
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+Access key for svc-deploy used from unusual location 198.51.100.23,SECURITY,SECURITY-7
+Database CPU at 91% on analytics-pg due to long running query,DATABASE,DATABASE-8
+S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+URGENT Cost Explorer: S3 storage cost increase of $1017 this week,COST_BILLING,COST_BILLING-6
+Backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+URGENT ECS service checkout cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+S3 bucket prod-logs replication failed for 459 objects,STORAGE,STORAGE-3
+S3 bucket backup-archive made public by svc-deploy,SECURITY,SECURITY-4
+NAT gateway ErrorPortAllocation count 125 in us-east-1,NETWORK,NETWORK-5
+AWS Budgets: actual spend exceeded 98% of monthly budget,COST_BILLING,COST_BILLING-0
+CodePipeline stage Deploy failed for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Cost Explorer: S3 storage cost increase of $3334 this week,COST_BILLING,COST_BILLING-6
+s3 bucket customer-uploads made public by admin-temp,SECURITY,SECURITY-4
+TLS handshake timeouts between API gateway and search backend,NETWORK,NETWORK-9
+CloudTrail logging stopped by contractor-07,SECURITY,SECURITY-3
+URGENT Inode usage 86% on data volume of web-07,STORAGE,STORAGE-9
+FYI: MemoryUtilization above threshold on web-01: 91% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Untagged resources accruing $9588 per day,COST_BILLING,COST_BILLING-5
+EC2 status check failed for reporting-node; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+nat gateway errorportallocation count 115 in eu-west-1,NETWORK,NETWORK-5
+"Log partition almost full on i-0a1b2c3d4e5f, 88% used",STORAGE,STORAGE-5
+Data transfer out charges spiked by $9251 in us-west-2,COST_BILLING,COST_BILLING-9
+TLS handshake timeouts between API gateway and search backend,NETWORK,NETWORK-9
+Route 53 health check failed for auth.example.com,NETWORK,NETWORK-3
+reserved instance coverage fell below 98% target,COST_BILLING,COST_BILLING-7
+DNS resolution failures for auth internal endpoint,NETWORK,NETWORK-4
+Aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+"Load average on i-0a1b2c3d4e5f is 139, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Slow query log: 299 queries over 8920 ms on inventory-ddb,DATABASE,DATABASE-5
+Unexpected NAT gateway data processing charges of $6823,COST_BILLING,COST_BILLING-3
+"Kubernetes node web-07 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+filesystem / is 83% full on reporting-node,STORAGE,STORAGE-2
+"EBS volume queue length high, IOPS limit reached on api-prod-3",STORAGE,STORAGE-4
+NullPointerException spike in auth logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+Elevated network latency to api-prod-3: 2230 ms round trip,NETWORK,NETWORK-6
+S3 bucket backup-archive made public by contractor-07,SECURITY,SECURITY-4
+too many connections error from application to rds-prod-main,DATABASE,DATABASE-7
+S3 bucket customer-uploads replication failed for 437 objects,STORAGE,STORAGE-3
+S3 PUT requests returning SlowDown on bucket prod-logs,STORAGE,STORAGE-8
+DNS resolution failures for auth internal endpoint,NETWORK,NETWORK-4
+snapshot creation failed: volume i-09f8e7d6c5b4 in error state,STORAGE,STORAGE-7
+Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+MemoryUtilization above threshold on web-01: 82% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+"EBS volume queue length high, IOPS limit reached on web-07",STORAGE,STORAGE-4
+MemoryUtilization above threshold on reporting-node: 90% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+unhandled exception rate increased for checkout after release v8.22,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+ALARM: DatabaseConnections > 7 on customers-aurora,DATABASE,DATABASE-0
+Cost Explorer: S3 storage cost increase of $8244 this week,COST_BILLING,COST_BILLING-6
+auto scaling group could not launch instances: insufficientinstancecapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+High CPU usage detected on instance orders-svc (82%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Replica lag on rds-prod-main is 55 seconds,DATABASE,DATABASE-1
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+S3 bucket customer-uploads made public by contractor-07,SECURITY,SECURITY-4
+[PagerDuty] Slow query log: 351 queries over 1537 ms on rds-prod-main,DATABASE,DATABASE-5
+Synthetic canary for checkout checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Load balancer has 0 healthy targets in target group notifications-tg,NETWORK,NETWORK-7
+Application notifications returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Cost Explorer: S3 storage cost increase of $1004 this week,COST_BILLING,COST_BILLING-6
+ALARM: CPUUtilization > 93% for 15 minutes on web-01,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+NullPointerException spike in checkout logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+CloudTrail logging stopped by svc-deploy,SECURITY,SECURITY-3
+Snapshot creation failed: volume reporting-node in error state,STORAGE,STORAGE-7
+Forecasted monthly cost exceeds budget by $3528,COST_BILLING,COST_BILLING-2
+[PagerDuty] Container for catalog in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Database CPU at 89% on analytics-pg due to long running query,DATABASE,DATABASE-8
+ALARM: TargetResponseTime > 7654 ms on application load balancer,NETWORK,NETWORK-0
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against web-07 from 198.51.100.23,SECURITY,SECURITY-0
+ecs service checkout cannot place tasks: insufficient cpu in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+CodePipeline stage Deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+GuardDuty: CryptoCurrency mining activity detected on web-07,SECURITY,SECURITY-6
+Cost anomaly detected: EC2 spend up $1168 today in us-west-2,COST_BILLING,COST_BILLING-1
+[P2] Slow query log: 159 queries over 483 ms on inventory-ddb,DATABASE,DATABASE-5
+"Load average on reporting-node is 323, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+route 53 health check failed for notifications.example.com,NETWORK,NETWORK-3
+High CPU usage detected on instance ip-10-0-3-17 (90%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+"Deployment v4.13 of auth failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+filesystem / is 88% full on i-0a1b2c3d4e5f,STORAGE,STORAGE-2
+Billing alarm: EstimatedCharges > $1000,COST_BILLING,COST_BILLING-8
+Filesystem / is 95% full on api-prod-3,STORAGE,STORAGE-2
+Elevated network latency to orders-svc: 7411 ms round trip,NETWORK,NETWORK-6
+DNS resolution failures for checkout internal endpoint,NETWORK,NETWORK-4
+FYI: Deadlock detected in inventory-ddb on table orders,DATABASE,DATABASE-2
+Backup job for rds-prod-main failed: snapshot quota exceeded,DATABASE,DATABASE-9
+forecasted monthly cost exceeds budget by $623,COST_BILLING,COST_BILLING-2
+EFS file system PercentIOLimit at 97%,STORAGE,STORAGE-6
+Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+URGENT Cost Explorer: S3 storage cost increase of $8487 this week,COST_BILLING,COST_BILLING-6
+MemoryUtilization above threshold on reporting-node: 92% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+high cpu usage detected on instance batch-worker-2 (86%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+[PagerDuty] ALARM: TargetResponseTime > 2338 ms on application load balancer,NETWORK,NETWORK-0
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against orders-svc from 198.51.100.23,SECURITY,SECURITY-0
+DNS resolution failures for search internal endpoint,NETWORK,NETWORK-4
+Backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+"EBS volume queue length high, IOPS limit reached on ip-10-0-3-17",STORAGE,STORAGE-4
+"deployment v1.21 of catalog failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+AWS Budgets: actual spend exceeded 88% of monthly budget,COST_BILLING,COST_BILLING-0
+[P2] ALARM: DatabaseConnections > 10 on customers-aurora,DATABASE,DATABASE-0
+GuardDuty: CryptoCurrency mining activity detected on orders-svc,SECURITY,SECURITY-6
+Too many connections error from application to orders-db,DATABASE,DATABASE-7
+"Deployment v3.13 of search failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+CloudTrail logging stopped by jdoe,SECURITY,SECURITY-3
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+[P2] WAF blocked 21 SQL injection attempts against checkout,SECURITY,SECURITY-5
+Backup job for orders-db failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+Cost anomaly detected: EC2 spend up $513 today in us-east-1,COST_BILLING,COST_BILLING-1
+Backup job for orders-db failed: snapshot quota exceeded,DATABASE,DATABASE-9
+"Instance web-01 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+"FYI: Load average on orders-svc is 39, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Canary deployment of notifications v8.6 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+AWS Budgets: actual spend exceeded 89% of monthly budget,COST_BILLING,COST_BILLING-0
+Forecasted monthly cost exceeds budget by $8638,COST_BILLING,COST_BILLING-2
+Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+Slow query log: 260 queries over 7459 ms on analytics-pg,DATABASE,DATABASE-5
+Forecasted monthly cost exceeds budget by $6752,COST_BILLING,COST_BILLING-2
+Cost Explorer: S3 storage cost increase of $1365 this week,COST_BILLING,COST_BILLING-6
+Security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+"Log partition almost full on api-prod-3, 88% used",STORAGE,STORAGE-5
+Slow query log: 224 queries over 1722 ms on customers-aurora,DATABASE,DATABASE-5
+backup job for orders-db failed: snapshot quota exceeded,DATABASE,DATABASE-9
+WAF blocked 263 SQL injection attempts against notifications,SECURITY,SECURITY-5
+[PagerDuty] S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+Billing alarm: EstimatedCharges > $4545,COST_BILLING,COST_BILLING-8
+Filesystem / is 94% full on payments-api,STORAGE,STORAGE-2
+URGENT aurora failover initiated for cluster rds-prod-main,DATABASE,DATABASE-6
+application search returning 503 service unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+"Instance payments-api out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+EBS volume attached to batch-worker-2 BurstBalance below 10%,STORAGE,STORAGE-1
+Forecasted monthly cost exceeds budget by $765,COST_BILLING,COST_BILLING-2
+route 53 health check failed for notifications.example.com,NETWORK,NETWORK-3
+Snapshot creation failed: volume web-01 in error state,STORAGE,STORAGE-7
+370 failed console login attempts for user ci-runner from 203.0.113.45,SECURITY,SECURITY-1
+application auth returning 503 service unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+"RDS instance customers-aurora storage-full event, writes failing",DATABASE,DATABASE-3
+Load balancer has 0 healthy targets in target group checkout-tg,NETWORK,NETWORK-7
+application search returning 503 service unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Savings Plan utilization dropped to 95%,COST_BILLING,COST_BILLING-4
+FYI: ALARM: HTTPCode_Target_5XX_Count > 33 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+[PagerDuty] IAM policy AdministratorAccess attached to user contractor-07 outside change window,SECURITY,SECURITY-2
+Inode usage 93% on data volume of web-01,STORAGE,STORAGE-9
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against api-prod-3 from 192.0.2.88,SECURITY,SECURITY-0
+"Log partition almost full on batch-worker-2, 82% used",STORAGE,STORAGE-5
+Billing alarm: EstimatedCharges > $8095,COST_BILLING,COST_BILLING-8
+Cost anomaly detected: EC2 spend up $9705 today in us-west-2,COST_BILLING,COST_BILLING-1
+WAF blocked 346 SQL injection attempts against search,SECURITY,SECURITY-5
+[PagerDuty] auto scaling group could not launch instances: insufficientinstancecapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+nat gateway errorportallocation count 478 in eu-west-1,NETWORK,NETWORK-5
+[P2] efs file system percentiolimit at 91%,STORAGE,STORAGE-6
+"[PagerDuty] Deployment v9.2 of auth failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+[PagerDuty] Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+"URGENT Log partition almost full on i-09f8e7d6c5b4, 86% used",STORAGE,STORAGE-5
+EBS volume attached to batch-worker-2 BurstBalance below 10%,STORAGE,STORAGE-1
+[P2] High CPU usage detected on instance i-0a1b2c3d4e5f (89%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+URGENT TLS handshake timeouts between API gateway and search backend,NETWORK,NETWORK-9
+Access key for svc-deploy used from unusual location 198.51.100.23,SECURITY,SECURITY-7
+DynamoDB table customers-aurora ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+DNS resolution failures for search internal endpoint,NETWORK,NETWORK-4
+application notifications returning 503 service unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+route 53 health check failed for search.example.com,NETWORK,NETWORK-3
+[PagerDuty] CloudTrail logging stopped by contractor-07,SECURITY,SECURITY-3
+Untagged resources accruing $4282 per day,COST_BILLING,COST_BILLING-5
+ALARM: disk usage 83% on /var on payments-api,STORAGE,STORAGE-0
+TLS handshake timeouts between API gateway and catalog backend,NETWORK,NETWORK-9
+ECS service auth cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Snapshot creation failed: volume web-01 in error state,STORAGE,STORAGE-7
+CloudTrail logging stopped by svc-deploy,SECURITY,SECURITY-3
+FYI: ALARM: CPUUtilization > 81% for 15 minutes on web-07,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+ALARM: HTTPCode_Target_5XX_Count > 38 for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+S3 bucket backup-archive replication failed for 112 objects,STORAGE,STORAGE-3
+ALARM: TargetResponseTime > 8299 ms on application load balancer,NETWORK,NETWORK-0
+[PagerDuty] Filesystem / is 94% full on payments-api,STORAGE,STORAGE-2
+ALARM: CPUUtilization > 98% for 15 minutes on payments-api,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+MemoryUtilization above threshold on api-prod-3: 87% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+"Log partition almost full on i-0a1b2c3d4e5f, 98% used",STORAGE,STORAGE-5
+Application auth returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Filesystem / is 98% full on orders-svc,STORAGE,STORAGE-2
+Slow query log: 477 queries over 7955 ms on analytics-pg,DATABASE,DATABASE-5
+ALARM: TargetResponseTime > 476 ms on application load balancer,NETWORK,NETWORK-0
+Security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+Unhandled exception rate increased for search after release v4.2,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+CodePipeline stage Deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+[PagerDuty] Aurora failover initiated for cluster orders-db,DATABASE,DATABASE-6
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against reporting-node from 192.0.2.88,SECURITY,SECURITY-0
+waf blocked 28 sql injection attempts against notifications,SECURITY,SECURITY-5
+ALARM: HTTPCode_Target_5XX_Count > 434 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+IAM policy AdministratorAccess attached to user admin-temp outside change window,SECURITY,SECURITY-2
+Untagged resources accruing $7316 per day,COST_BILLING,COST_BILLING-5
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+[PagerDuty] GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against batch-worker-2 from 185.220.101.4,SECURITY,SECURITY-0
+Database CPU at 92% on analytics-pg due to long running query,DATABASE,DATABASE-8
+DynamoDB table orders-db ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Canary deployment of checkout v1.4 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+"Load average on i-09f8e7d6c5b4 is 72, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+DynamoDB table rds-prod-main ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+EFS file system PercentIOLimit at 84%,STORAGE,STORAGE-6
+Filesystem / is 87% full on i-09f8e7d6c5b4,STORAGE,STORAGE-2
+"[PagerDuty] ebs volume queue length high, iops limit reached on i-09f8e7d6c5b4",STORAGE,STORAGE-4
+Too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+ECS service auth cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+"Log partition almost full on ip-10-0-3-17, 88% used",STORAGE,STORAGE-5
+Snapshot creation failed: volume payments-api in error state,STORAGE,STORAGE-7
+elevated network latency to payments-api: 6565 ms round trip,NETWORK,NETWORK-6
+Aurora failover initiated for cluster customers-aurora,DATABASE,DATABASE-6
+ecs service checkout cannot place tasks: insufficient cpu in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+S3 bucket customer-uploads made public by svc-deploy,SECURITY,SECURITY-4
+aurora failover initiated for cluster orders-db,DATABASE,DATABASE-6
+TLS handshake timeouts between API gateway and auth backend,NETWORK,NETWORK-9
+MemoryUtilization above threshold on web-07: 83% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+DNS resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+[P2] NullPointerException spike in auth logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+efs file system percentiolimit at 86%,STORAGE,STORAGE-6
+codepipeline stage deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+s3 put requests returning slowdown on bucket customer-uploads,STORAGE,STORAGE-8
+Synthetic canary for auth checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+"Log partition almost full on i-0a1b2c3d4e5f, 86% used",STORAGE,STORAGE-5
+Unhandled exception rate increased for notifications after release v6.5,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Cost Explorer: S3 storage cost increase of $1269 this week,COST_BILLING,COST_BILLING-6
+ALARM: TargetResponseTime > 1503 ms on application load balancer,NETWORK,NETWORK-0
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against payments-api from 192.0.2.88,SECURITY,SECURITY-0
+DNS resolution failures for checkout internal endpoint,NETWORK,NETWORK-4
+Synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+"Deployment v9.29 of auth failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Database CPU at 98% on rds-prod-main due to long running query,DATABASE,DATABASE-8
+TLS handshake timeouts between API gateway and catalog backend,NETWORK,NETWORK-9
+ALARM: HTTPCode_Target_5XX_Count > 492 for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+Untagged resources accruing $4392 per day,COST_BILLING,COST_BILLING-5
+ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+forecasted monthly cost exceeds budget by $7386,COST_BILLING,COST_BILLING-2
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against web-01 from 203.0.113.45,SECURITY,SECURITY-0
+[PagerDuty] data transfer out charges spiked by $2120 in us-west-2,COST_BILLING,COST_BILLING-9
+"EBS volume queue length high, IOPS limit reached on api-prod-3",STORAGE,STORAGE-4
+High CPU usage detected on instance payments-api (94%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Database CPU at 99% on customers-aurora due to long running query,DATABASE,DATABASE-8
+Access key for admin-temp used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+DNS resolution failures for auth internal endpoint,NETWORK,NETWORK-4
+GuardDuty: CryptoCurrency mining activity detected on api-prod-3,SECURITY,SECURITY-6
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+Error rate for catalog API at 87% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+unexpected nat gateway data processing charges of $3175,COST_BILLING,COST_BILLING-3
+EBS volume attached to reporting-node BurstBalance below 10%,STORAGE,STORAGE-1
+Cost Explorer: S3 storage cost increase of $4270 this week,COST_BILLING,COST_BILLING-6
+nullpointerexception spike in auth logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+database cpu at 91% on inventory-ddb due to long running query,DATABASE,DATABASE-8
+URGENT S3 bucket customer-uploads made public by svc-deploy,SECURITY,SECURITY-4
+waf blocked 111 sql injection attempts against notifications,SECURITY,SECURITY-5
+[PagerDuty] DynamoDB table rds-prod-main ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+"EBS volume queue length high, IOPS limit reached on api-prod-3",STORAGE,STORAGE-4
+Forecasted monthly cost exceeds budget by $4251,COST_BILLING,COST_BILLING-2
+WAF blocked 210 SQL injection attempts against search,SECURITY,SECURITY-5
+Untagged resources accruing $9482 per day,COST_BILLING,COST_BILLING-5
+URGENT 197 failed console login attempts for user contractor-07 from 192.0.2.88,SECURITY,SECURITY-1
+Synthetic canary for notifications checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+"[PagerDuty] Deployment v3.17 of checkout failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+ALARM: TargetResponseTime > 2806 ms on application load balancer,NETWORK,NETWORK-0
+TLS handshake timeouts between API gateway and checkout backend,NETWORK,NETWORK-9
+MemoryUtilization above threshold on ip-10-0-3-17: 82% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Replica lag on inventory-ddb is 33 seconds,DATABASE,DATABASE-1
+EC2 status check failed for api-prod-3; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+EBS volume attached to api-prod-3 BurstBalance below 10%,STORAGE,STORAGE-1
+ALARM: CPUUtilization > 94% for 15 minutes on payments-api,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Data transfer out charges spiked by $6800 in us-west-2,COST_BILLING,COST_BILLING-9
+Forecasted monthly cost exceeds budget by $7040,COST_BILLING,COST_BILLING-2
+Replica lag on orders-db is 89 seconds,DATABASE,DATABASE-1
+URGENT Forecasted monthly cost exceeds budget by $8129,COST_BILLING,COST_BILLING-2
+Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+dynamodb table rds-prod-main provisionedthroughputexceededexception on writes,DATABASE,DATABASE-4
+S3 bucket prod-logs made public by ci-runner,SECURITY,SECURITY-4
+EFS file system PercentIOLimit at 95%,STORAGE,STORAGE-6
+waf blocked 145 sql injection attempts against auth,SECURITY,SECURITY-5
+WAF blocked 369 SQL injection attempts against checkout,SECURITY,SECURITY-5
+"Instance batch-worker-2 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+"Kubernetes node web-07 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Database CPU at 89% on analytics-pg due to long running query,DATABASE,DATABASE-8
+lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Backup job for rds-prod-main failed: snapshot quota exceeded,DATABASE,DATABASE-9
+High CPU usage detected on instance payments-api (94%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+URGENT Elevated network latency to batch-worker-2: 8542 ms round trip,NETWORK,NETWORK-6
+Too many connections error from application to customers-aurora,DATABASE,DATABASE-7
+FYI: direct connect connection state changed to down,NETWORK,NETWORK-8
+Forecasted monthly cost exceeds budget by $7324,COST_BILLING,COST_BILLING-2
+S3 bucket prod-logs made public by contractor-07,SECURITY,SECURITY-4
+savings plan utilization dropped to 98%,COST_BILLING,COST_BILLING-4
+"Log partition almost full on batch-worker-2, 89% used",STORAGE,STORAGE-5
+packet loss of 81% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+nullpointerexception spike in checkout logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+container for auth in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+Aurora failover initiated for cluster customers-aurora,DATABASE,DATABASE-6
+Lambda function search throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Untagged resources accruing $7033 per day,COST_BILLING,COST_BILLING-5
+DynamoDB table inventory-ddb ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Replica lag on customers-aurora is 421 seconds,DATABASE,DATABASE-1
+S3 bucket prod-logs replication failed for 186 objects,STORAGE,STORAGE-3
+Access key for ci-runner used from unusual location 185.220.101.4,SECURITY,SECURITY-7
+URGENT Deadlock detected in rds-prod-main on table orders,DATABASE,DATABASE-2
+cost anomaly detected: ec2 spend up $8295 today in us-west-2,COST_BILLING,COST_BILLING-1
+Filesystem / is 83% full on i-09f8e7d6c5b4,STORAGE,STORAGE-2
+URGENT Security group opened port 22 to 0.0.0.0/0 by svc-deploy,SECURITY,SECURITY-8
+Error rate for notifications API at 91% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+EC2 status check failed for web-01; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Load balancer has 0 healthy targets in target group search-tg,NETWORK,NETWORK-7
+357 failed console login attempts for user contractor-07 from 185.220.101.4,SECURITY,SECURITY-1
+CodePipeline stage Deploy failed for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Unhandled exception rate increased for notifications after release v8.5,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+NAT gateway ErrorPortAllocation count 129 in us-west-2,NETWORK,NETWORK-5
+Security group opened port 22 to 0.0.0.0/0 by jdoe,SECURITY,SECURITY-8
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+High CPU usage detected on instance web-07 (98%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+"RDS instance inventory-ddb storage-full event, writes failing",DATABASE,DATABASE-3
+[P2] application catalog returning 503 service unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+"Load average on ip-10-0-3-17 is 288, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against reporting-node from 192.0.2.88,SECURITY,SECURITY-0
+Cost Explorer: S3 storage cost increase of $6107 this week,COST_BILLING,COST_BILLING-6
+"Log partition almost full on web-01, 97% used",STORAGE,STORAGE-5
+S3 bucket prod-logs replication failed for 201 objects,STORAGE,STORAGE-3
+memoryutilization above threshold on orders-svc: 89% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+"EBS volume queue length high, IOPS limit reached on i-0a1b2c3d4e5f",STORAGE,STORAGE-4
+[PagerDuty] CodePipeline stage Deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+replica lag on analytics-pg is 438 seconds,DATABASE,DATABASE-1
+[PagerDuty] Lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+"instance web-07 out of memory, oom killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+Reserved instance coverage fell below 92% target,COST_BILLING,COST_BILLING-7
+slow query log: 266 queries over 5534 ms on rds-prod-main,DATABASE,DATABASE-5
+FYI: aws budgets: actual spend exceeded 84% of monthly budget,COST_BILLING,COST_BILLING-0
+Cost Explorer: S3 storage cost increase of $8708 this week,COST_BILLING,COST_BILLING-6
+FYI: Savings Plan utilization dropped to 95%,COST_BILLING,COST_BILLING-4
+"Instance ip-10-0-3-17 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+EC2 status check failed for api-prod-3; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+ALARM: DatabaseConnections > 12 on rds-prod-main,DATABASE,DATABASE-0
+Aurora failover initiated for cluster customers-aurora,DATABASE,DATABASE-6
+"rds instance inventory-ddb storage-full event, writes failing",DATABASE,DATABASE-3
+Unexpected NAT gateway data processing charges of $715,COST_BILLING,COST_BILLING-3
+GuardDuty: CryptoCurrency mining activity detected on reporting-node,SECURITY,SECURITY-6
+GuardDuty: CryptoCurrency mining activity detected on api-prod-3,SECURITY,SECURITY-6
+aws budgets: actual spend exceeded 97% of monthly budget,COST_BILLING,COST_BILLING-0
+alarm: httpcode_target_5xx_count > 20 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+ALARM: TargetResponseTime > 8095 ms on application load balancer,NETWORK,NETWORK-0
+direct connect connection state changed to down,NETWORK,NETWORK-8
+Application catalog returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Access key for jdoe used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+Unexpected NAT gateway data processing charges of $8779,COST_BILLING,COST_BILLING-3
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+FYI: Unhandled exception rate increased for checkout after release v2.5,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+[PagerDuty] Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-west-2,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+"ebs volume queue length high, iops limit reached on api-prod-3",STORAGE,STORAGE-4
+reserved instance coverage fell below 88% target,COST_BILLING,COST_BILLING-7
+Container for notifications in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+dynamodb table customers-aurora provisionedthroughputexceededexception on writes,DATABASE,DATABASE-4
+Data transfer out charges spiked by $6692 in us-east-1,COST_BILLING,COST_BILLING-9
+"Load average on payments-api is 428, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+security group opened port 22 to 0.0.0.0/0 by ci-runner,SECURITY,SECURITY-8
+S3 bucket data-lake-raw replication failed for 343 objects,STORAGE,STORAGE-3
+High CPU usage detected on instance i-09f8e7d6c5b4 (98%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+"Load average on i-0a1b2c3d4e5f is 284, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Deadlock detected in rds-prod-main on table orders,DATABASE,DATABASE-2
+Untagged resources accruing $9456 per day,COST_BILLING,COST_BILLING-5
+codepipeline stage deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Canary deployment of catalog v6.21 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+ec2 status check failed for api-prod-3; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+container for checkout in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+reserved instance coverage fell below 80% target,COST_BILLING,COST_BILLING-7
+NullPointerException spike in notifications logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+ALARM: TargetResponseTime > 8304 ms on application load balancer,NETWORK,NETWORK-0
+EBS volume attached to i-0a1b2c3d4e5f BurstBalance below 10%,STORAGE,STORAGE-1
+Application checkout returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Route 53 health check failed for notifications.example.com,NETWORK,NETWORK-3
+Slow query log: 90 queries over 3735 ms on inventory-ddb,DATABASE,DATABASE-5
+Error rate for search API at 80% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+S3 PUT requests returning SlowDown on bucket data-lake-raw,STORAGE,STORAGE-8
+cloudtrail logging stopped by contractor-07,SECURITY,SECURITY-3
+URGENT High CPU usage detected on instance batch-worker-2 (81%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Load balancer has 0 healthy targets in target group notifications-tg,NETWORK,NETWORK-7
+Filesystem / is 93% full on api-prod-3,STORAGE,STORAGE-2
+"Deployment v1.1 of notifications failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+AWS Budgets: actual spend exceeded 89% of monthly budget,COST_BILLING,COST_BILLING-0
+ALARM: TargetResponseTime > 1675 ms on application load balancer,NETWORK,NETWORK-0
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+"Load average on i-0a1b2c3d4e5f is 7, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Replica lag on rds-prod-main is 336 seconds,DATABASE,DATABASE-1
+[PagerDuty] database cpu at 98% on customers-aurora due to long running query,DATABASE,DATABASE-8
+NAT gateway ErrorPortAllocation count 344 in us-east-1,NETWORK,NETWORK-5
+[P2] VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+URGENT synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+DNS resolution failures for checkout internal endpoint,NETWORK,NETWORK-4
+FYI: GuardDuty: CryptoCurrency mining activity detected on web-01,SECURITY,SECURITY-6
+[P2] IAM policy AdministratorAccess attached to user ci-runner outside change window,SECURITY,SECURITY-2
+URGENT Error rate for search API at 90% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+[P2] savings plan utilization dropped to 92%,COST_BILLING,COST_BILLING-4
+Unhandled exception rate increased for auth after release v4.10,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+NAT gateway ErrorPortAllocation count 212 in eu-west-1,NETWORK,NETWORK-5
+Error rate for checkout API at 86% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+Error rate for checkout API at 99% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+Elevated network latency to batch-worker-2: 1502 ms round trip,NETWORK,NETWORK-6
+nat gateway errorportallocation count 119 in us-west-2,NETWORK,NETWORK-5
+"Load average on ip-10-0-3-17 is 358, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+"ebs volume queue length high, iops limit reached on reporting-node",STORAGE,STORAGE-4
+Elevated network latency to reporting-node: 5487 ms round trip,NETWORK,NETWORK-6
+route 53 health check failed for auth.example.com,NETWORK,NETWORK-3
+EBS volume attached to payments-api BurstBalance below 10%,STORAGE,STORAGE-1
+FYI: Unexpected NAT gateway data processing charges of $1165,COST_BILLING,COST_BILLING-3
+NAT gateway ErrorPortAllocation count 146 in us-east-1,NETWORK,NETWORK-5
+Synthetic canary for search checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+S3 PUT requests returning SlowDown on bucket data-lake-raw,STORAGE,STORAGE-8
+Data transfer out charges spiked by $660 in us-west-2,COST_BILLING,COST_BILLING-9
+"Log partition almost full on payments-api, 90% used",STORAGE,STORAGE-5
+Packet loss of 84% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+"[PagerDuty] RDS instance orders-db storage-full event, writes failing",DATABASE,DATABASE-3
+Reserved instance coverage fell below 98% target,COST_BILLING,COST_BILLING-7
+Unexpected NAT gateway data processing charges of $4874,COST_BILLING,COST_BILLING-3
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against batch-worker-2 from 198.51.100.23,SECURITY,SECURITY-0
+WAF blocked 309 SQL injection attempts against checkout,SECURITY,SECURITY-5
+unhandled exception rate increased for notifications after release v7.5,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+URGENT alarm: httpcode_target_5xx_count > 345 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+dns resolution failures for search internal endpoint,NETWORK,NETWORK-4
+Replica lag on inventory-ddb is 437 seconds,DATABASE,DATABASE-1
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+Unexpected NAT gateway data processing charges of $4267,COST_BILLING,COST_BILLING-3
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against i-0a1b2c3d4e5f from 203.0.113.45,SECURITY,SECURITY-0
+Too many connections error from application to customers-aurora,DATABASE,DATABASE-7
+Billing alarm: EstimatedCharges > $6713,COST_BILLING,COST_BILLING-8
+URGENT guardduty: cryptocurrency mining activity detected on batch-worker-2,SECURITY,SECURITY-6
+nat gateway errorportallocation count 278 in eu-west-1,NETWORK,NETWORK-5
+Cost anomaly detected: EC2 spend up $5779 today in us-east-1,COST_BILLING,COST_BILLING-1
+Route 53 health check failed for catalog.example.com,NETWORK,NETWORK-3
+IAM policy AdministratorAccess attached to user svc-deploy outside change window,SECURITY,SECURITY-2
+nat gateway errorportallocation count 443 in us-east-1,NETWORK,NETWORK-5
+S3 PUT requests returning SlowDown on bucket prod-logs,STORAGE,STORAGE-8
+Cost Explorer: S3 storage cost increase of $6821 this week,COST_BILLING,COST_BILLING-6
+DynamoDB table rds-prod-main ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+ALARM: disk usage 88% on /var on orders-svc,STORAGE,STORAGE-0
+backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+ALARM: HTTPCode_Target_5XX_Count > 27 for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+EC2 status check failed for orders-svc; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+"Deployment v2.10 of checkout failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+Untagged resources accruing $5973 per day,COST_BILLING,COST_BILLING-5
+"Kubernetes node api-prod-3 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against i-09f8e7d6c5b4 from 198.51.100.23,SECURITY,SECURITY-0
+S3 bucket prod-logs replication failed for 157 objects,STORAGE,STORAGE-3
+Data transfer out charges spiked by $2965 in us-east-1,COST_BILLING,COST_BILLING-9
+Too many connections error from application to customers-aurora,DATABASE,DATABASE-7
+Unexpected NAT gateway data processing charges of $6256,COST_BILLING,COST_BILLING-3
+elevated network latency to web-01: 3283 ms round trip,NETWORK,NETWORK-6
+CloudTrail logging stopped by svc-deploy,SECURITY,SECURITY-3
+[P2] VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+FYI: TLS handshake timeouts between API gateway and checkout backend,NETWORK,NETWORK-9
+security group opened port 22 to 0.0.0.0/0 by contractor-07,SECURITY,SECURITY-8
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+S3 bucket prod-logs made public by contractor-07,SECURITY,SECURITY-4
+load balancer has 0 healthy targets in target group checkout-tg,NETWORK,NETWORK-7
+Replica lag on analytics-pg is 162 seconds,DATABASE,DATABASE-1
+Deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+Security group opened port 22 to 0.0.0.0/0 by admin-temp,SECURITY,SECURITY-8
+ALARM: HTTPCode_Target_5XX_Count > 336 for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+Error rate for checkout API at 99% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+S3 bucket customer-uploads replication failed for 403 objects,STORAGE,STORAGE-3
+"ebs volume queue length high, iops limit reached on batch-worker-2",STORAGE,STORAGE-4
+ALARM: disk usage 89% on /var on web-07,STORAGE,STORAGE-0
+"Kubernetes node web-07 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+container for auth in crashloopbackoff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+Replica lag on analytics-pg is 419 seconds,DATABASE,DATABASE-1
+S3 bucket customer-uploads made public by svc-deploy,SECURITY,SECURITY-4
+EC2 status check failed for i-0a1b2c3d4e5f; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+too many connections error from application to rds-prod-main,DATABASE,DATABASE-7
+ALARM: disk usage 86% on /var on web-07,STORAGE,STORAGE-0
+Forecasted monthly cost exceeds budget by $7165,COST_BILLING,COST_BILLING-2
+Untagged resources accruing $194 per day,COST_BILLING,COST_BILLING-5
+reserved instance coverage fell below 90% target,COST_BILLING,COST_BILLING-7
+CloudTrail logging stopped by jdoe,SECURITY,SECURITY-3
+security group opened port 22 to 0.0.0.0/0 by admin-temp,SECURITY,SECURITY-8
+MemoryUtilization above threshold on ip-10-0-3-17: 97% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Inode usage 87% on data volume of i-0a1b2c3d4e5f,STORAGE,STORAGE-9
+[PagerDuty] High CPU usage detected on instance payments-api (99%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+332 failed console login attempts for user ci-runner from 185.220.101.4,SECURITY,SECURITY-1
+"Kubernetes node ip-10-0-3-17 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+URGENT Route 53 health check failed for catalog.example.com,NETWORK,NETWORK-3
+URGENT root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+[PagerDuty] MemoryUtilization above threshold on orders-svc: 88% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+[PagerDuty] cost explorer: s3 storage cost increase of $2655 this week,COST_BILLING,COST_BILLING-6
+deadlock detected in analytics-pg on table orders,DATABASE,DATABASE-2
+Too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+elevated network latency to api-prod-3: 2267 ms round trip,NETWORK,NETWORK-6
+unhandled exception rate increased for catalog after release v7.29,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+[PagerDuty] Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+URGENT EBS volume attached to api-prod-3 BurstBalance below 10%,STORAGE,STORAGE-1
+ALARM: DatabaseConnections > 395 on inventory-ddb,DATABASE,DATABASE-0
+[PagerDuty] ALARM: HTTPCode_Target_5XX_Count > 210 for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+Packet loss of 97% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+FYI: CodePipeline stage Deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Packet loss of 86% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+Packet loss of 94% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+unhandled exception rate increased for checkout after release v9.16,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+High CPU usage detected on instance web-01 (94%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Data transfer out charges spiked by $2771 in eu-west-1,COST_BILLING,COST_BILLING-9
+Load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+Untagged resources accruing $332 per day,COST_BILLING,COST_BILLING-5
+"instance web-07 out of memory, oom killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+URGENT canary deployment of notifications v5.0 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+[PagerDuty] Savings Plan utilization dropped to 80%,COST_BILLING,COST_BILLING-4
+URGENT Unexpected NAT gateway data processing charges of $2950,COST_BILLING,COST_BILLING-3
+Reserved instance coverage fell below 99% target,COST_BILLING,COST_BILLING-7
+access key for contractor-07 used from unusual location 185.220.101.4,SECURITY,SECURITY-7
+URGENT Synthetic canary for auth checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+guardduty: cryptocurrency mining activity detected on web-01,SECURITY,SECURITY-6
+Database CPU at 99% on rds-prod-main due to long running query,DATABASE,DATABASE-8
+[PagerDuty] IAM policy AdministratorAccess attached to user svc-deploy outside change window,SECURITY,SECURITY-2
+Deadlock detected in rds-prod-main on table orders,DATABASE,DATABASE-2
+CodePipeline stage Deploy failed for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+URGENT AWS Budgets: actual spend exceeded 97% of monthly budget,COST_BILLING,COST_BILLING-0
+"deployment v3.18 of notifications failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Application auth returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Elevated network latency to reporting-node: 8557 ms round trip,NETWORK,NETWORK-6
+CloudTrail logging stopped by contractor-07,SECURITY,SECURITY-3
+EFS file system PercentIOLimit at 94%,STORAGE,STORAGE-6
+savings plan utilization dropped to 92%,COST_BILLING,COST_BILLING-4
+ALARM: TargetResponseTime > 3050 ms on application load balancer,NETWORK,NETWORK-0
+Packet loss of 92% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+ALARM: DatabaseConnections > 145 on rds-prod-main,DATABASE,DATABASE-0
+Application catalog returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+ALARM: disk usage 86% on /var on i-0a1b2c3d4e5f,STORAGE,STORAGE-0
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+alarm: httpcode_target_5xx_count > 110 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+[P2] EFS file system PercentIOLimit at 98%,STORAGE,STORAGE-6
+Canary deployment of catalog v7.22 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+DNS resolution failures for notifications internal endpoint,NETWORK,NETWORK-4
+AWS Budgets: actual spend exceeded 99% of monthly budget,COST_BILLING,COST_BILLING-0
+Application search returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+[PagerDuty] 71 failed console login attempts for user jdoe from 198.51.100.23,SECURITY,SECURITY-1
+data transfer out charges spiked by $373 in eu-west-1,COST_BILLING,COST_BILLING-9
+direct connect connection state changed to down,NETWORK,NETWORK-8
+"Log partition almost full on payments-api, 95% used",STORAGE,STORAGE-5
+Untagged resources accruing $8438 per day,COST_BILLING,COST_BILLING-5
+Cost Explorer: S3 storage cost increase of $7317 this week,COST_BILLING,COST_BILLING-6
+ALARM: CPUUtilization > 80% for 15 minutes on orders-svc,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+ALARM: CPUUtilization > 85% for 15 minutes on web-01,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Unhandled exception rate increased for auth after release v2.9,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+AWS Budgets: actual spend exceeded 92% of monthly budget,COST_BILLING,COST_BILLING-0
+Database CPU at 97% on analytics-pg due to long running query,DATABASE,DATABASE-8
+deadlock detected in customers-aurora on table orders,DATABASE,DATABASE-2
+s3 bucket backup-archive replication failed for 93 objects,STORAGE,STORAGE-3
+FYI: Load balancer has 0 healthy targets in target group notifications-tg,NETWORK,NETWORK-7
+Synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+replica lag on orders-db is 129 seconds,DATABASE,DATABASE-1
+Too many connections error from application to orders-db,DATABASE,DATABASE-7
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+Container for notifications in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+[P2] VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+cost explorer: s3 storage cost increase of $6791 this week,COST_BILLING,COST_BILLING-6
+"deployment v1.5 of auth failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Security group opened port 22 to 0.0.0.0/0 by jdoe,SECURITY,SECURITY-8
+ecs service auth cannot place tasks: insufficient cpu in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Elevated network latency to orders-svc: 838 ms round trip,NETWORK,NETWORK-6
+[PagerDuty] Unexpected NAT gateway data processing charges of $3217,COST_BILLING,COST_BILLING-3
+ALARM: TargetResponseTime > 8797 ms on application load balancer,NETWORK,NETWORK-0
+[P2] Deadlock detected in inventory-ddb on table orders,DATABASE,DATABASE-2
+guardduty: cryptocurrency mining activity detected on ip-10-0-3-17,SECURITY,SECURITY-6
+"Load average on web-01 is 3, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+EC2 status check failed for web-07; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+cost anomaly detected: ec2 spend up $6882 today in eu-west-1,COST_BILLING,COST_BILLING-1
+Unexpected NAT gateway data processing charges of $9314,COST_BILLING,COST_BILLING-3
+direct connect connection state changed to down,NETWORK,NETWORK-8
+Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+"Instance reporting-node out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+"deployment v6.24 of checkout failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+[P2] GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against reporting-node from 192.0.2.88,SECURITY,SECURITY-0
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-west-2,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+NAT gateway ErrorPortAllocation count 433 in eu-west-1,NETWORK,NETWORK-5
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against reporting-node from 203.0.113.45,SECURITY,SECURITY-0
+Unhandled exception rate increased for search after release v4.18,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Database CPU at 89% on rds-prod-main due to long running query,DATABASE,DATABASE-8
+NAT gateway ErrorPortAllocation count 251 in eu-west-1,NETWORK,NETWORK-5
+MemoryUtilization above threshold on web-07: 84% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+Cost Explorer: S3 storage cost increase of $9528 this week,COST_BILLING,COST_BILLING-6
+URGENT GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against i-09f8e7d6c5b4 from 192.0.2.88,SECURITY,SECURITY-0
+Load balancer has 0 healthy targets in target group search-tg,NETWORK,NETWORK-7
+FYI: DynamoDB table customers-aurora ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+"Kubernetes node orders-svc NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+error rate for search api at 98% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+Access key for svc-deploy used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+Unhandled exception rate increased for search after release v5.5,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+access key for admin-temp used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+[PagerDuty] Aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+[P2] Too many connections error from application to orders-db,DATABASE,DATABASE-7
+Packet loss of 82% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+TLS handshake timeouts between API gateway and notifications backend,NETWORK,NETWORK-9
+lambda function notifications throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Database CPU at 97% on orders-db due to long running query,DATABASE,DATABASE-8
+Filesystem / is 91% full on reporting-node,STORAGE,STORAGE-2
+NAT gateway ErrorPortAllocation count 462 in eu-west-1,NETWORK,NETWORK-5
+Untagged resources accruing $5033 per day,COST_BILLING,COST_BILLING-5
+[P2] DynamoDB table analytics-pg ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Access key for ci-runner used from unusual location 192.0.2.88,SECURITY,SECURITY-7
+Database CPU at 86% on customers-aurora due to long running query,DATABASE,DATABASE-8
+EC2 status check failed for ip-10-0-3-17; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Forecasted monthly cost exceeds budget by $1988,COST_BILLING,COST_BILLING-2
+ALARM: CPUUtilization > 98% for 15 minutes on reporting-node,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+TLS handshake timeouts between API gateway and checkout backend,NETWORK,NETWORK-9
+S3 PUT requests returning SlowDown on bucket prod-logs,STORAGE,STORAGE-8
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Untagged resources accruing $1379 per day,COST_BILLING,COST_BILLING-5
+MemoryUtilization above threshold on orders-svc: 89% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+IAM policy AdministratorAccess attached to user ci-runner outside change window,SECURITY,SECURITY-2
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Database CPU at 89% on rds-prod-main due to long running query,DATABASE,DATABASE-8
+NullPointerException spike in notifications logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+Inode usage 94% on data volume of web-01,STORAGE,STORAGE-9
+Filesystem / is 99% full on ip-10-0-3-17,STORAGE,STORAGE-2
+ALARM: DatabaseConnections > 358 on inventory-ddb,DATABASE,DATABASE-0
+Lambda function auth throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+ALARM: DatabaseConnections > 233 on orders-db,DATABASE,DATABASE-0
+CloudTrail logging stopped by jdoe,SECURITY,SECURITY-3
+High CPU usage detected on instance reporting-node (89%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Savings Plan utilization dropped to 94%,COST_BILLING,COST_BILLING-4
+EFS file system PercentIOLimit at 89%,STORAGE,STORAGE-6
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+NAT gateway ErrorPortAllocation count 179 in eu-west-1,NETWORK,NETWORK-5
+Container for checkout in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+CodePipeline stage Deploy failed for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+auto scaling group could not launch instances: insufficientinstancecapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Untagged resources accruing $1124 per day,COST_BILLING,COST_BILLING-5
+64 failed console login attempts for user svc-deploy from 198.51.100.23,SECURITY,SECURITY-1
+ALARM: TargetResponseTime > 7095 ms on application load balancer,NETWORK,NETWORK-0
+[PagerDuty] Error rate for auth API at 84% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+[P2] MemoryUtilization above threshold on i-09f8e7d6c5b4: 93% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+[P2] s3 bucket data-lake-raw made public by ci-runner,SECURITY,SECURITY-4
+GuardDuty: CryptoCurrency mining activity detected on reporting-node,SECURITY,SECURITY-6
+Synthetic canary for checkout checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+"[P2] Log partition almost full on orders-svc, 83% used",STORAGE,STORAGE-5
+NAT gateway ErrorPortAllocation count 440 in eu-west-1,NETWORK,NETWORK-5
+ALARM: DatabaseConnections > 67 on orders-db,DATABASE,DATABASE-0
+NullPointerException spike in catalog logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+Billing alarm: EstimatedCharges > $4885,COST_BILLING,COST_BILLING-8
+"Deployment v1.17 of search failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Too many connections error from application to customers-aurora,DATABASE,DATABASE-7
+"RDS instance analytics-pg storage-full event, writes failing",DATABASE,DATABASE-3
+ecs service search cannot place tasks: insufficient cpu in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+filesystem / is 99% full on i-09f8e7d6c5b4,STORAGE,STORAGE-2
+[P2] dynamodb table rds-prod-main provisionedthroughputexceededexception on writes,DATABASE,DATABASE-4
+Slow query log: 189 queries over 7916 ms on inventory-ddb,DATABASE,DATABASE-5
+[PagerDuty] Synthetic canary for checkout checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+454 failed console login attempts for user admin-temp from 203.0.113.45,SECURITY,SECURITY-1
+Unexpected NAT gateway data processing charges of $8421,COST_BILLING,COST_BILLING-3
+s3 bucket customer-uploads replication failed for 229 objects,STORAGE,STORAGE-3
+"log partition almost full on ip-10-0-3-17, 95% used",STORAGE,STORAGE-5
+EBS volume attached to payments-api BurstBalance below 10%,STORAGE,STORAGE-1
+Cost anomaly detected: EC2 spend up $1072 today in eu-west-1,COST_BILLING,COST_BILLING-1
+FYI: IAM policy AdministratorAccess attached to user admin-temp outside change window,SECURITY,SECURITY-2
+ALARM: DatabaseConnections > 202 on customers-aurora,DATABASE,DATABASE-0
+NullPointerException spike in checkout logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+"[P2] RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+AWS Budgets: actual spend exceeded 93% of monthly budget,COST_BILLING,COST_BILLING-0
+IAM policy AdministratorAccess attached to user contractor-07 outside change window,SECURITY,SECURITY-2
+Savings Plan utilization dropped to 94%,COST_BILLING,COST_BILLING-4
+ALARM: DatabaseConnections > 320 on rds-prod-main,DATABASE,DATABASE-0
+CloudTrail logging stopped by ci-runner,SECURITY,SECURITY-3
+Route 53 health check failed for search.example.com,NETWORK,NETWORK-3
+ALARM: DatabaseConnections > 354 on inventory-ddb,DATABASE,DATABASE-0
+Load balancer has 0 healthy targets in target group catalog-tg,NETWORK,NETWORK-7
+"Deployment v7.8 of search failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+AWS Budgets: actual spend exceeded 95% of monthly budget,COST_BILLING,COST_BILLING-0
+[PagerDuty] Packet loss of 90% between us-east-1 and on-premises data center,NETWORK,NETWORK-1
+URGENT Filesystem / is 80% full on i-0a1b2c3d4e5f,STORAGE,STORAGE-2
+EBS volume attached to api-prod-3 BurstBalance below 10%,STORAGE,STORAGE-1
+Unhandled exception rate increased for notifications after release v2.11,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Security group opened port 22 to 0.0.0.0/0 by ci-runner,SECURITY,SECURITY-8
+Backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+Unexpected NAT gateway data processing charges of $1159,COST_BILLING,COST_BILLING-3
+"Deployment v8.13 of checkout failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Elevated network latency to i-0a1b2c3d4e5f: 8889 ms round trip,NETWORK,NETWORK-6
+URGENT ALARM: disk usage 89% on /var on i-09f8e7d6c5b4,STORAGE,STORAGE-0
+Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+Filesystem / is 99% full on batch-worker-2,STORAGE,STORAGE-2
+Unexpected NAT gateway data processing charges of $3135,COST_BILLING,COST_BILLING-3
+Inode usage 81% on data volume of api-prod-3,STORAGE,STORAGE-9
+S3 bucket backup-archive made public by svc-deploy,SECURITY,SECURITY-4
+[P2] ALARM: DatabaseConnections > 125 on inventory-ddb,DATABASE,DATABASE-0
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+EC2 status check failed for web-07; instance unreachable,COMPUTE_CAPACITY,COMPUTE_CAPACITY-4
+Access key for contractor-07 used from unusual location 198.51.100.23,SECURITY,SECURITY-7
+elevated network latency to batch-worker-2: 5342 ms round trip,NETWORK,NETWORK-6
+Snapshot creation failed: volume api-prod-3 in error state,STORAGE,STORAGE-7
+"Log partition almost full on reporting-node, 99% used",STORAGE,STORAGE-5
+"[P2] Instance i-0a1b2c3d4e5f out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+URGENT Unexpected NAT gateway data processing charges of $5030,COST_BILLING,COST_BILLING-3
+"RDS instance orders-db storage-full event, writes failing",DATABASE,DATABASE-3
+FYI: Lambda function catalog throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Aurora failover initiated for cluster orders-db,DATABASE,DATABASE-6
+Data transfer out charges spiked by $3269 in us-west-2,COST_BILLING,COST_BILLING-9
+Database CPU at 99% on orders-db due to long running query,DATABASE,DATABASE-8
+inode usage 97% on data volume of reporting-node,STORAGE,STORAGE-9
+Reserved instance coverage fell below 91% target,COST_BILLING,COST_BILLING-7
+Error rate for auth API at 85% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+EBS volume attached to orders-svc BurstBalance below 10%,STORAGE,STORAGE-1
+unexpected nat gateway data processing charges of $8494,COST_BILLING,COST_BILLING-3
+S3 PUT requests returning SlowDown on bucket customer-uploads,STORAGE,STORAGE-8
+ALARM: DatabaseConnections > 421 on orders-db,DATABASE,DATABASE-0
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+URGENT Forecasted monthly cost exceeds budget by $6508,COST_BILLING,COST_BILLING-2
+replica lag on inventory-ddb is 331 seconds,DATABASE,DATABASE-1
+Application notifications returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+[PagerDuty] ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+NullPointerException spike in notifications logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+FYI: Access key for svc-deploy used from unusual location 203.0.113.45,SECURITY,SECURITY-7
+ALARM: DatabaseConnections > 81 on analytics-pg,DATABASE,DATABASE-0
+EBS volume attached to payments-api BurstBalance below 10%,STORAGE,STORAGE-1
+Billing alarm: EstimatedCharges > $5197,COST_BILLING,COST_BILLING-8
+Deadlock detected in analytics-pg on table orders,DATABASE,DATABASE-2
+EBS volume attached to orders-svc BurstBalance below 10%,STORAGE,STORAGE-1
+unhandled exception rate increased for auth after release v3.22,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+Cost anomaly detected: EC2 spend up $7448 today in eu-west-1,COST_BILLING,COST_BILLING-1
+high cpu usage detected on instance batch-worker-2 (92%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+Packet loss of 87% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+26 failed console login attempts for user jdoe from 185.220.101.4,SECURITY,SECURITY-1
+TLS handshake timeouts between API gateway and catalog backend,NETWORK,NETWORK-9
+"Instance web-01 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+ALARM: disk usage 84% on /var on i-0a1b2c3d4e5f,STORAGE,STORAGE-0
+S3 bucket data-lake-raw made public by ci-runner,SECURITY,SECURITY-4
+38 failed console login attempts for user jdoe from 203.0.113.45,SECURITY,SECURITY-1
+Application notifications returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+DNS resolution failures for catalog internal endpoint,NETWORK,NETWORK-4
+Canary deployment of auth v6.10 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+Backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+"Instance web-01 out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+Lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+Container for checkout in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+deadlock detected in analytics-pg on table orders,DATABASE,DATABASE-2
+Forecasted monthly cost exceeds budget by $8046,COST_BILLING,COST_BILLING-2
+Slow query log: 38 queries over 4952 ms on rds-prod-main,DATABASE,DATABASE-5
+[P2] Reserved instance coverage fell below 95% target,COST_BILLING,COST_BILLING-7
+CloudTrail logging stopped by jdoe,SECURITY,SECURITY-3
+Savings Plan utilization dropped to 80%,COST_BILLING,COST_BILLING-4
+EFS file system PercentIOLimit at 84%,STORAGE,STORAGE-6
+"RDS instance customers-aurora storage-full event, writes failing",DATABASE,DATABASE-3
+ECS service checkout cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+Forecasted monthly cost exceeds budget by $4616,COST_BILLING,COST_BILLING-2
+guardduty finding: unauthorizedaccess:ec2/sshbruteforce against api-prod-3 from 198.51.100.23,SECURITY,SECURITY-0
+Packet loss of 82% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+Billing alarm: EstimatedCharges > $6567,COST_BILLING,COST_BILLING-8
+"RDS instance rds-prod-main storage-full event, writes failing",DATABASE,DATABASE-3
+inode usage 97% on data volume of reporting-node,STORAGE,STORAGE-9
+Filesystem / is 98% full on web-01,STORAGE,STORAGE-2
+"Deployment v7.15 of notifications failed health checks, rollback started",APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+Route 53 health check failed for auth.example.com,NETWORK,NETWORK-3
+NullPointerException spike in checkout logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+s3 bucket customer-uploads made public by svc-deploy,SECURITY,SECURITY-4
+inode usage 92% on data volume of i-09f8e7d6c5b4,STORAGE,STORAGE-9
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+Error rate for auth API at 94% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+ALARM: CPUUtilization > 81% for 15 minutes on reporting-node,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Canary deployment of catalog v9.7 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+ALARM: disk usage 88% on /var on i-09f8e7d6c5b4,STORAGE,STORAGE-0
+s3 put requests returning slowdown on bucket customer-uploads,STORAGE,STORAGE-8
+ALARM: TargetResponseTime > 3570 ms on application load balancer,NETWORK,NETWORK-0
+URGENT security group opened port 22 to 0.0.0.0/0 by jdoe,SECURITY,SECURITY-8
+NAT gateway ErrorPortAllocation count 459 in us-west-2,NETWORK,NETWORK-5
+Reserved instance coverage fell below 81% target,COST_BILLING,COST_BILLING-7
+lambda function auth throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+DynamoDB table orders-db ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Root account login detected from 185.220.101.4,SECURITY,SECURITY-9
+[PagerDuty] Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+Snapshot creation failed: volume i-0a1b2c3d4e5f in error state,STORAGE,STORAGE-7
+ALARM: TargetResponseTime > 8123 ms on application load balancer,NETWORK,NETWORK-0
+[P2] S3 PUT requests returning SlowDown on bucket backup-archive,STORAGE,STORAGE-8
+URGENT Canary deployment of notifications v9.25 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+lambda function checkout throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+[P2] Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-east-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+[PagerDuty] Lambda function auth throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+[PagerDuty] Inode usage 99% on data volume of batch-worker-2,STORAGE,STORAGE-9
+"instance i-0a1b2c3d4e5f out of memory, oom killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+"RDS instance inventory-ddb storage-full event, writes failing",DATABASE,DATABASE-3
+Lambda function search throttled: concurrency limit reached,COMPUTE_CAPACITY,COMPUTE_CAPACITY-8
+IAM policy AdministratorAccess attached to user jdoe outside change window,SECURITY,SECURITY-2
+High CPU usage detected on instance reporting-node (88%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+"Kubernetes node web-07 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+[P2] WAF blocked 30 SQL injection attempts against search,SECURITY,SECURITY-5
+[PagerDuty] Filesystem / is 83% full on i-0a1b2c3d4e5f,STORAGE,STORAGE-2
+Canary deployment of notifications v4.2 exceeded error budget,APPLICATION_DEPLOY,APPLICATION_DEPLOY-7
+65 failed console login attempts for user contractor-07 from 192.0.2.88,SECURITY,SECURITY-1
+S3 bucket backup-archive replication failed for 379 objects,STORAGE,STORAGE-3
+Backup job for inventory-ddb failed: snapshot quota exceeded,DATABASE,DATABASE-9
+URGENT s3 put requests returning slowdown on bucket customer-uploads,STORAGE,STORAGE-8
+ECS service checkout cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+root account login detected from 198.51.100.23,SECURITY,SECURITY-9
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+DynamoDB table inventory-ddb ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+"Load average on payments-api is 253, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Data transfer out charges spiked by $4829 in eu-west-1,COST_BILLING,COST_BILLING-9
+ebs volume attached to orders-svc burstbalance below 10%,STORAGE,STORAGE-1
+CloudTrail logging stopped by jdoe,SECURITY,SECURITY-3
+IAM policy AdministratorAccess attached to user ci-runner outside change window,SECURITY,SECURITY-2
+"Load average on web-01 is 338, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+security group opened port 22 to 0.0.0.0/0 by ci-runner,SECURITY,SECURITY-8
+"EBS volume queue length high, IOPS limit reached on api-prod-3",STORAGE,STORAGE-4
+billing alarm: estimatedcharges > $5044,COST_BILLING,COST_BILLING-8
+EFS file system PercentIOLimit at 88%,STORAGE,STORAGE-6
+WAF blocked 327 SQL injection attempts against search,SECURITY,SECURITY-5
+URGENT ALARM: HTTPCode_Target_5XX_Count > 159 for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+FYI: Direct Connect connection state changed to down,NETWORK,NETWORK-8
+"Instance reporting-node out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+S3 bucket customer-uploads replication failed for 4 objects,STORAGE,STORAGE-3
+URGENT Too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+"Kubernetes node i-09f8e7d6c5b4 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+FYI: NAT gateway ErrorPortAllocation count 228 in us-east-1,NETWORK,NETWORK-5
+alarm: targetresponsetime > 8244 ms on application load balancer,NETWORK,NETWORK-0
+guardduty finding: unauthorizedaccess:ec2/sshbruteforce against orders-svc from 185.220.101.4,SECURITY,SECURITY-0
+ALARM: disk usage 88% on /var on batch-worker-2,STORAGE,STORAGE-0
+deadlock detected in rds-prod-main on table orders,DATABASE,DATABASE-2
+Load balancer has 0 healthy targets in target group auth-tg,NETWORK,NETWORK-7
+Synthetic canary for checkout checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+"Load average on i-0a1b2c3d4e5f is 318, exceeds number of vCPUs",COMPUTE_CAPACITY,COMPUTE_CAPACITY-6
+Application search returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+FYI: Backup job for analytics-pg failed: snapshot quota exceeded,DATABASE,DATABASE-9
+ALARM: CPUUtilization > 89% for 15 minutes on web-07,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+CloudTrail logging stopped by admin-temp,SECURITY,SECURITY-3
+Security group opened port 22 to 0.0.0.0/0 by admin-temp,SECURITY,SECURITY-8
+efs file system percentiolimit at 91%,STORAGE,STORAGE-6
+URGENT Too many connections error from application to orders-db,DATABASE,DATABASE-7
+DNS resolution failures for checkout internal endpoint,NETWORK,NETWORK-4
+snapshot creation failed: volume web-01 in error state,STORAGE,STORAGE-7
+[P2] Access key for contractor-07 used from unusual location 198.51.100.23,SECURITY,SECURITY-7
+Elevated network latency to reporting-node: 6098 ms round trip,NETWORK,NETWORK-6
+Cost anomaly detected: EC2 spend up $5905 today in us-east-1,COST_BILLING,COST_BILLING-1
+"Kubernetes node batch-worker-2 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+S3 bucket backup-archive replication failed for 70 objects,STORAGE,STORAGE-3
+Untagged resources accruing $3398 per day,COST_BILLING,COST_BILLING-5
+"EBS volume queue length high, IOPS limit reached on batch-worker-2",STORAGE,STORAGE-4
+Slow query log: 98 queries over 4770 ms on rds-prod-main,DATABASE,DATABASE-5
+Cost Explorer: S3 storage cost increase of $8949 this week,COST_BILLING,COST_BILLING-6
+Inode usage 80% on data volume of api-prod-3,STORAGE,STORAGE-9
+Data transfer out charges spiked by $1023 in us-east-1,COST_BILLING,COST_BILLING-9
+Route 53 health check failed for checkout.example.com,NETWORK,NETWORK-3
+VPN tunnel to corporate network is DOWN,NETWORK,NETWORK-2
+Application checkout returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+Savings Plan utilization dropped to 89%,COST_BILLING,COST_BILLING-4
+Unexpected NAT gateway data processing charges of $9309,COST_BILLING,COST_BILLING-3
+Snapshot creation failed: volume batch-worker-2 in error state,STORAGE,STORAGE-7
+ALARM: HTTPCode_Target_5XX_Count > 387 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+tls handshake timeouts between api gateway and search backend,NETWORK,NETWORK-9
+"[P2] RDS instance inventory-ddb storage-full event, writes failing",DATABASE,DATABASE-3
+codepipeline stage deploy failed for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+Forecasted monthly cost exceeds budget by $1917,COST_BILLING,COST_BILLING-2
+efs file system percentiolimit at 96%,STORAGE,STORAGE-6
+Filesystem / is 89% full on reporting-node,STORAGE,STORAGE-2
+FYI: Auto Scaling group could not launch instances: InsufficientInstanceCapacity in eu-west-1,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+FYI: Too many connections error from application to analytics-pg,DATABASE,DATABASE-7
+Root account login detected from 203.0.113.45,SECURITY,SECURITY-9
+Synthetic canary for catalog checkout flow failing,APPLICATION_DEPLOY,APPLICATION_DEPLOY-9
+data transfer out charges spiked by $9788 in eu-west-1,COST_BILLING,COST_BILLING-9
+Auto Scaling group could not launch instances: InsufficientInstanceCapacity in us-west-2,COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+Error rate for catalog API at 97% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+packet loss of 86% between eu-west-1 and on-premises data center,NETWORK,NETWORK-1
+Snapshot creation failed: volume i-09f8e7d6c5b4 in error state,STORAGE,STORAGE-7
+"ebs volume queue length high, iops limit reached on web-07",STORAGE,STORAGE-4
+cost anomaly detected: ec2 spend up $3131 today in us-east-1,COST_BILLING,COST_BILLING-1
+FYI: Container for catalog in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+"rds instance orders-db storage-full event, writes failing",DATABASE,DATABASE-3
+Security group opened port 22 to 0.0.0.0/0 by admin-temp,SECURITY,SECURITY-8
+Route 53 health check failed for auth.example.com,NETWORK,NETWORK-3
+memoryutilization above threshold on web-01: 91% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+CloudTrail logging stopped by contractor-07,SECURITY,SECURITY-3
+unexpected nat gateway data processing charges of $2941,COST_BILLING,COST_BILLING-3
+load balancer has 0 healthy targets in target group checkout-tg,NETWORK,NETWORK-7
+Error rate for checkout API at 90% of requests,APPLICATION_DEPLOY,APPLICATION_DEPLOY-6
+Container for checkout in CrashLoopBackOff,APPLICATION_DEPLOY,APPLICATION_DEPLOY-5
+URGENT efs file system percentiolimit at 97%,STORAGE,STORAGE-6
+[PagerDuty] ECS service search cannot place tasks: insufficient CPU in cluster,COMPUTE_CAPACITY,COMPUTE_CAPACITY-7
+"[P2] Kubernetes node batch-worker-2 NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Direct Connect connection state changed to down,NETWORK,NETWORK-8
+Billing alarm: EstimatedCharges > $3684,COST_BILLING,COST_BILLING-8
+Snapshot creation failed: volume payments-api in error state,STORAGE,STORAGE-7
+Application auth returning 503 Service Unavailable,APPLICATION_DEPLOY,APPLICATION_DEPLOY-4
+"Kubernetes node orders-svc NotReady, pods evicted due to memory pressure",COMPUTE_CAPACITY,COMPUTE_CAPACITY-9
+Snapshot creation failed: volume api-prod-3 in error state,STORAGE,STORAGE-7
+ALARM: HTTPCode_Target_5XX_Count > 99 for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+GuardDuty finding: UnauthorizedAccess:EC2/SSHBruteForce against web-01 from 185.220.101.4,SECURITY,SECURITY-0
+Root account login detected from 192.0.2.88,SECURITY,SECURITY-9
+Cost Explorer: S3 storage cost increase of $261 this week,COST_BILLING,COST_BILLING-6
+Packet loss of 85% between us-west-2 and on-premises data center,NETWORK,NETWORK-1
+ALARM: CPUUtilization > 83% for 15 minutes on reporting-node,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Replica lag on customers-aurora is 7 seconds,DATABASE,DATABASE-1
+ALARM: DatabaseConnections > 183 on analytics-pg,DATABASE,DATABASE-0
+MemoryUtilization above threshold on i-09f8e7d6c5b4: 83% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+ALARM: DatabaseConnections > 203 on analytics-pg,DATABASE,DATABASE-0
+alarm: targetresponsetime > 2781 ms on application load balancer,NETWORK,NETWORK-0
+GuardDuty: CryptoCurrency mining activity detected on orders-svc,SECURITY,SECURITY-6
+IAM policy AdministratorAccess attached to user jdoe outside change window,SECURITY,SECURITY-2
+Cost Explorer: S3 storage cost increase of $2301 this week,COST_BILLING,COST_BILLING-6
+DynamoDB table analytics-pg ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+"Instance reporting-node out of memory, OOM killer terminated process",COMPUTE_CAPACITY,COMPUTE_CAPACITY-5
+ALARM: TargetResponseTime > 2146 ms on application load balancer,NETWORK,NETWORK-0
+s3 bucket backup-archive made public by svc-deploy,SECURITY,SECURITY-4
+MemoryUtilization above threshold on payments-api: 99% used,COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+ALARM: CPUUtilization > 96% for 15 minutes on i-09f8e7d6c5b4,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+savings plan utilization dropped to 86%,COST_BILLING,COST_BILLING-4
+ALARM: CPUUtilization > 92% for 15 minutes on orders-svc,COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+Data transfer out charges spiked by $6640 in us-west-2,COST_BILLING,COST_BILLING-9
+DynamoDB table rds-prod-main ProvisionedThroughputExceededException on writes,DATABASE,DATABASE-4
+Aurora failover initiated for cluster analytics-pg,DATABASE,DATABASE-6
+Filesystem / is 88% full on web-01,STORAGE,STORAGE-2
+High CPU usage detected on instance web-07 (97%),COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+URGENT NullPointerException spike in notifications logs,APPLICATION_DEPLOY,APPLICATION_DEPLOY-8
+nat gateway errorportallocation count 65 in us-west-2,NETWORK,NETWORK-5
+170 failed console login attempts for user admin-temp from 192.0.2.88,SECURITY,SECURITY-1
+iam policy administratoraccess attached to user ci-runner outside change window,SECURITY,SECURITY-2

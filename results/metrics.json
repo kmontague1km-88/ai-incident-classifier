@@ -1,0 +1,356 @@
+{
+  "sizes": {
+    "train": 1470,
+    "test": 630,
+    "novel": 420
+  },
+  "threshold": 0.65,
+  "threshold_sweep_cv": [
+    {
+      "threshold": 0.3,
+      "auto_route_rate": 0.91,
+      "misroute_rate": 0.258
+    },
+    {
+      "threshold": 0.35,
+      "auto_route_rate": 0.797,
+      "misroute_rate": 0.214
+    },
+    {
+      "threshold": 0.4,
+      "auto_route_rate": 0.675,
+      "misroute_rate": 0.165
+    },
+    {
+      "threshold": 0.45,
+      "auto_route_rate": 0.578,
+      "misroute_rate": 0.13
+    },
+    {
+      "threshold": 0.5,
+      "auto_route_rate": 0.445,
+      "misroute_rate": 0.075
+    },
+    {
+      "threshold": 0.55,
+      "auto_route_rate": 0.375,
+      "misroute_rate": 0.063
+    },
+    {
+      "threshold": 0.6,
+      "auto_route_rate": 0.341,
+      "misroute_rate": 0.044
+    },
+    {
+      "threshold": 0.65,
+      "auto_route_rate": 0.273,
+      "misroute_rate": 0.037
+    },
+    {
+      "threshold": 0.7,
+      "auto_route_rate": 0.215,
+      "misroute_rate": 0.033
+    },
+    {
+      "threshold": 0.75,
+      "auto_route_rate": 0.15,
+      "misroute_rate": 0.024
+    },
+    {
+      "threshold": 0.8,
+      "auto_route_rate": 0.095,
+      "misroute_rate": 0.01
+    },
+    {
+      "threshold": 0.85,
+      "auto_route_rate": 0.039,
+      "misroute_rate": 0.0
+    },
+    {
+      "threshold": 0.9,
+      "auto_route_rate": 0.007,
+      "misroute_rate": 0.0
+    }
+  ],
+  "train_seconds": 0.34,
+  "standard_test": {
+    "baseline": {
+      "accuracy": 0.9047619047619048,
+      "macro_f1": 0.9293655602070091,
+      "unrouted_rate": 0.05396825396825397,
+      "misroute_rate": 0.04126984126984127
+    },
+    "model": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "auto_route_rate": 1.0,
+      "auto_route_accuracy": 1.0,
+      "misroute_rate": 0.0,
+      "human_triage_rate": 0.0
+    },
+    "per_class": {
+      "COMPUTE_CAPACITY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 90.0
+      },
+      "NETWORK": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 90.0
+      },
+      "DATABASE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 90.0
+      },
+      "STORAGE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 90.0
+      },
+      "SECURITY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 90.0
+      },
+      "APPLICATION_DEPLOY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 90.0
+      },
+      "COST_BILLING": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 90.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 630.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 630.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        90,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        90,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        90,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        90,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        90,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        90,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        90
+      ]
+    ]
+  },
+  "novel_phrasing": {
+    "baseline": {
+      "accuracy": 0.29285714285714287,
+      "macro_f1": 0.3851916199742286,
+      "unrouted_rate": 0.6523809523809524,
+      "misroute_rate": 0.05476190476190476
+    },
+    "model": {
+      "accuracy": 0.8119047619047619,
+      "macro_f1": 0.7995353706747264,
+      "auto_route_rate": 0.45714285714285713,
+      "auto_route_accuracy": 1.0,
+      "misroute_rate": 0.0,
+      "human_triage_rate": 0.5428571428571428
+    },
+    "per_class": {
+      "COMPUTE_CAPACITY": {
+        "precision": 0.5263157894736842,
+        "recall": 0.3333333333333333,
+        "f1-score": 0.40816326530612246,
+        "support": 60.0
+      },
+      "NETWORK": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 60.0
+      },
+      "DATABASE": {
+        "precision": 0.9523809523809523,
+        "recall": 1.0,
+        "f1-score": 0.975609756097561,
+        "support": 60.0
+      },
+      "STORAGE": {
+        "precision": 0.6705882352941176,
+        "recall": 0.95,
+        "f1-score": 0.7862068965517242,
+        "support": 60.0
+      },
+      "SECURITY": {
+        "precision": 1.0,
+        "recall": 0.65,
+        "f1-score": 0.7878787878787878,
+        "support": 60.0
+      },
+      "APPLICATION_DEPLOY": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 60.0
+      },
+      "COST_BILLING": {
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1-score": 0.75,
+        "support": 60.0
+      },
+      "accuracy": 0.8119047619047619,
+      "macro avg": {
+        "precision": 0.8141835681641076,
+        "recall": 0.8119047619047619,
+        "f1-score": 0.7995353706747264,
+        "support": 420.0
+      },
+      "weighted avg": {
+        "precision": 0.8141835681641079,
+        "recall": 0.8119047619047619,
+        "f1-score": 0.7995353706747264,
+        "support": 420.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        20,
+        0,
+        3,
+        22,
+        0,
+        0,
+        15
+      ],
+      [
+        0,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        60,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        57,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        15,
+        0,
+        6,
+        39,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        60,
+        0
+      ],
+      [
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        45
+      ]
+    ]
+  },
+  "latency_ms": {
+    "median": 2.49,
+    "p95": 2.81
+  }
+}

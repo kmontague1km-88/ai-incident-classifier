@@ -30,7 +30,7 @@ TRIAGE_QUEUE_TOPIC = os.environ.get(
 # Optional second opinion from a foundation model on Amazon Bedrock for
 # low-confidence alerts. Off by default (cost and latency).
 USE_BEDROCK = os.environ.get("TRIAGE_USE_BEDROCK", "false").lower() == "true"
-BEDROCK_MODEL_ID = os.environ.get("TRIAGE_BEDROCK_MODEL_ID", "anthropic.claude-3-haiku-20240307-v1:0")
+BEDROCK_MODEL_ID = os.environ.get("TRIAGE_BEDROCK_MODEL_ID", "amazon.nova-micro-v1:0")
 
 
 def load_routing():

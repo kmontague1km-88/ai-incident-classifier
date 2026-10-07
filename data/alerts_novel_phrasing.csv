@@ -1,0 +1,421 @@
+text,label,template_id
+connection pool exhausted talking to inventory-ddb,DATABASE,DATABASE-1
+new admin rights granted to admin-temp without ticket,SECURITY,SECURITY-3
+name lookups timing out for internal services,NETWORK,NETWORK-3
+pods for search keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"inventory-ddb primary unhealthy, standby promoted",DATABASE,DATABASE-0
+spend tracking way over plan this month (+$4606),COST_BILLING,COST_BILLING-0
+intermittent connectivity drops to us-west-2,NETWORK,NETWORK-1
+throughput credits depleted on gp2 volume of ip-10-0-3-17,STORAGE,STORAGE-2
+URGENT spend tracking way over plan this month (+$7295),COST_BILLING,COST_BILLING-0
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+tunnel flapping between office and vpc,NETWORK,NETWORK-2
+"[P2] volume nearly full, logs cannot be written on payments-api",STORAGE,STORAGE-1
+"bill jumped $3951 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+customers getting errors at checkout on catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+commitment discount coverage slipping to 92%,COST_BILLING,COST_BILLING-3
+"users report site slow to load, ALB p99 1599ms",NETWORK,NETWORK-0
+spend tracking way over plan this month (+$422),COST_BILLING,COST_BILLING-0
+spend tracking way over plan this month (+$5561),COST_BILLING,COST_BILLING-0
+FYI: objects failing to copy to DR bucket backup-archive,STORAGE,STORAGE-3
+throughput credits depleted on gp2 volume of web-01,STORAGE,STORAGE-2
+no space left on device on ip-10-0-3-17,STORAGE,STORAGE-0
+tunnel flapping between office and vpc,NETWORK,NETWORK-2
+suspicious api calls by jdoe from tor exit node 185.220.101.4,SECURITY,SECURITY-0
+URGENT brute force against ssh on web-07,SECURITY,SECURITY-2
+FYI: customers getting errors at checkout on catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+FYI: new admin rights granted to jdoe without ticket,SECURITY,SECURITY-3
+pods for notifications keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+[PagerDuty] tunnel flapping between office and vpc,NETWORK,NETWORK-2
+"FYI: orders-db primary unhealthy, standby promoted",DATABASE,DATABASE-0
+"bill jumped $4728 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+[P2] name lookups timing out for internal services,NETWORK,NETWORK-3
+auth throwing 500s since the v2.29 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+commitment discount coverage slipping to 94%,COST_BILLING,COST_BILLING-3
+objects failing to copy to DR bucket prod-logs,STORAGE,STORAGE-3
+"volume nearly full, logs cannot be written on i-0a1b2c3d4e5f",STORAGE,STORAGE-1
+no space left on device on reporting-node,STORAGE,STORAGE-0
+checkout throwing 500s since the v9.15 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+brute force against SSH on web-01,SECURITY,SECURITY-2
+"users report site slow to load, ALB p99 7908ms",NETWORK,NETWORK-0
+tunnel flapping between office and VPC,NETWORK,NETWORK-2
+release v3.27 broke login for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+lock waits piling up on rds-prod-main,DATABASE,DATABASE-3
+customers getting errors at checkout on catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+objects failing to copy to DR bucket customer-uploads,STORAGE,STORAGE-3
+budget threshold breached for us-east-1 account,COST_BILLING,COST_BILLING-2
+"web-07 pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+"[P2] payments-api pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+tunnel flapping between office and VPC,NETWORK,NETWORK-2
+someone disabled audit trail in eu-west-1,SECURITY,SECURITY-1
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+connection pool exhausted talking to customers-aurora,DATABASE,DATABASE-1
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+URGENT lock waits piling up on analytics-pg,DATABASE,DATABASE-3
+someone disabled audit trail in us-east-1,SECURITY,SECURITY-1
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+release v7.5 broke login for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+URGENT scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+customers getting errors at checkout on auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+pods for search keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+no space left on device on i-09f8e7d6c5b4,STORAGE,STORAGE-0
+"users report site slow to load, ALB p99 919ms",NETWORK,NETWORK-0
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+suspicious API calls by contractor-07 from Tor exit node 192.0.2.88,SECURITY,SECURITY-0
+name lookups timing out for internal services,NETWORK,NETWORK-3
+budget threshold breached for us-east-1 account,COST_BILLING,COST_BILLING-2
+FYI: read replica rds-prod-main falling behind master,DATABASE,DATABASE-2
+"box payments-api swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+budget threshold breached for us-east-1 account,COST_BILLING,COST_BILLING-2
+catalog throwing 500s since the v8.4 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+objects failing to copy to DR bucket backup-archive,STORAGE,STORAGE-3
+"[P2] volume nearly full, logs cannot be written on i-09f8e7d6c5b4",STORAGE,STORAGE-1
+"users report site slow to load, alb p99 2014ms",NETWORK,NETWORK-0
+spend tracking way over plan this month (+$9489),COST_BILLING,COST_BILLING-0
+[P2] objects failing to copy to DR bucket prod-logs,STORAGE,STORAGE-3
+auth throwing 500s since the v1.15 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+pods for notifications keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+lock waits piling up on analytics-pg,DATABASE,DATABASE-3
+throughput credits depleted on gp2 volume of ip-10-0-3-17,STORAGE,STORAGE-2
+commitment discount coverage slipping to 97%,COST_BILLING,COST_BILLING-3
+brute force against SSH on web-07,SECURITY,SECURITY-2
+new admin rights granted to contractor-07 without ticket,SECURITY,SECURITY-3
+catalog throwing 500s since the v8.4 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+budget threshold breached for us-east-1 account,COST_BILLING,COST_BILLING-2
+URGENT intermittent connectivity drops to eu-west-1,NETWORK,NETWORK-1
+[P2] commitment discount coverage slipping to 91%,COST_BILLING,COST_BILLING-3
+suspicious API calls by admin-temp from Tor exit node 203.0.113.45,SECURITY,SECURITY-0
+budget threshold breached for us-west-2 account,COST_BILLING,COST_BILLING-2
+brute force against SSH on batch-worker-2,SECURITY,SECURITY-2
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+pods for checkout keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+tunnel flapping between office and VPC,NETWORK,NETWORK-2
+brute force against SSH on i-09f8e7d6c5b4,SECURITY,SECURITY-2
+release v8.25 broke login for auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+pods for search keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+customers getting errors at checkout on search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+connection pool exhausted talking to analytics-pg,DATABASE,DATABASE-1
+read replica analytics-pg falling behind master,DATABASE,DATABASE-2
+"box batch-worker-2 swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+"bill jumped $6532 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+"bill jumped $5998 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+[PagerDuty] throughput credits depleted on gp2 volume of web-01,STORAGE,STORAGE-2
+"box web-01 swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+[PagerDuty] budget threshold breached for us-west-2 account,COST_BILLING,COST_BILLING-2
+objects failing to copy to DR bucket backup-archive,STORAGE,STORAGE-3
+new admin rights granted to contractor-07 without ticket,SECURITY,SECURITY-3
+"bill jumped $9419 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+budget threshold breached for us-east-1 account,COST_BILLING,COST_BILLING-2
+someone disabled audit trail in us-west-2,SECURITY,SECURITY-1
+URGENT name lookups timing out for internal services,NETWORK,NETWORK-3
+tunnel flapping between office and VPC,NETWORK,NETWORK-2
+auth throwing 500s since the v5.24 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+URGENT auth throwing 500s since the v6.17 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+commitment discount coverage slipping to 91%,COST_BILLING,COST_BILLING-3
+new admin rights granted to contractor-07 without ticket,SECURITY,SECURITY-3
+URGENT name lookups timing out for internal services,NETWORK,NETWORK-3
+"ip-10-0-3-17 pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+throughput credits depleted on gp2 volume of i-09f8e7d6c5b4,STORAGE,STORAGE-2
+someone disabled audit trail in eu-west-1,SECURITY,SECURITY-1
+"payments-api pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+"URGENT volume nearly full, logs cannot be written on i-09f8e7d6c5b4",STORAGE,STORAGE-1
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+no space left on device on reporting-node,STORAGE,STORAGE-0
+connection pool exhausted talking to analytics-pg,DATABASE,DATABASE-1
+"users report site slow to load, alb p99 3916ms",NETWORK,NETWORK-0
+no space left on device on i-09f8e7d6c5b4,STORAGE,STORAGE-0
+commitment discount coverage slipping to 99%,COST_BILLING,COST_BILLING-3
+tunnel flapping between office and VPC,NETWORK,NETWORK-2
+"volume nearly full, logs cannot be written on batch-worker-2",STORAGE,STORAGE-1
+"volume nearly full, logs cannot be written on api-prod-3",STORAGE,STORAGE-1
+FYI: tunnel flapping between office and VPC,NETWORK,NETWORK-2
+"bill jumped $5870 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+"URGENT volume nearly full, logs cannot be written on reporting-node",STORAGE,STORAGE-1
+FYI: throughput credits depleted on gp2 volume of batch-worker-2,STORAGE,STORAGE-2
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+read replica analytics-pg falling behind master,DATABASE,DATABASE-2
+"box reporting-node swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+"users report site slow to load, ALB p99 7645ms",NETWORK,NETWORK-0
+[PagerDuty] scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+tunnel flapping between office and vpc,NETWORK,NETWORK-2
+no space left on device on reporting-node,STORAGE,STORAGE-0
+throughput credits depleted on gp2 volume of batch-worker-2,STORAGE,STORAGE-2
+brute force against SSH on reporting-node,SECURITY,SECURITY-2
+"volume nearly full, logs cannot be written on reporting-node",STORAGE,STORAGE-1
+FYI: objects failing to copy to dr bucket backup-archive,STORAGE,STORAGE-3
+"[PagerDuty] fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+"volume nearly full, logs cannot be written on ip-10-0-3-17",STORAGE,STORAGE-1
+new admin rights granted to contractor-07 without ticket,SECURITY,SECURITY-3
+release v1.17 broke login for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+objects failing to copy to DR bucket data-lake-raw,STORAGE,STORAGE-3
+budget threshold breached for eu-west-1 account,COST_BILLING,COST_BILLING-2
+suspicious API calls by svc-deploy from Tor exit node 198.51.100.23,SECURITY,SECURITY-0
+lock waits piling up on customers-aurora,DATABASE,DATABASE-3
+"[PagerDuty] reporting-node pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+suspicious api calls by ci-runner from tor exit node 192.0.2.88,SECURITY,SECURITY-0
+"users report site slow to load, alb p99 1556ms",NETWORK,NETWORK-0
+"bill jumped $2893 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+name lookups timing out for internal services,NETWORK,NETWORK-3
+pods for catalog keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"web-01 pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+read replica inventory-ddb falling behind master,DATABASE,DATABASE-2
+spend tracking way over plan this month (+$1279),COST_BILLING,COST_BILLING-0
+connection pool exhausted talking to orders-db,DATABASE,DATABASE-1
+[P2] new admin rights granted to ci-runner without ticket,SECURITY,SECURITY-3
+intermittent connectivity drops to us-west-2,NETWORK,NETWORK-1
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+"URGENT volume nearly full, logs cannot be written on reporting-node",STORAGE,STORAGE-1
+FYI: scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+pods for auth keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"FYI: fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+release v4.10 broke login for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+someone disabled audit trail in us-east-1,SECURITY,SECURITY-1
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+customers getting errors at checkout on checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+"box web-07 swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+read replica analytics-pg falling behind master,DATABASE,DATABASE-2
+objects failing to copy to DR bucket prod-logs,STORAGE,STORAGE-3
+new admin rights granted to jdoe without ticket,SECURITY,SECURITY-3
+name lookups timing out for internal services,NETWORK,NETWORK-3
+read replica rds-prod-main falling behind master,DATABASE,DATABASE-2
+customers getting errors at checkout on catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+throughput credits depleted on gp2 volume of reporting-node,STORAGE,STORAGE-2
+customers getting errors at checkout on auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+[P2] spend tracking way over plan this month (+$5816),COST_BILLING,COST_BILLING-0
+"box batch-worker-2 swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+someone disabled audit trail in eu-west-1,SECURITY,SECURITY-1
+"[P2] users report site slow to load, ALB p99 4922ms",NETWORK,NETWORK-0
+connection pool exhausted talking to analytics-pg,DATABASE,DATABASE-1
+"[PagerDuty] bill jumped $9734 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+"[P2] users report site slow to load, ALB p99 6522ms",NETWORK,NETWORK-0
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+budget threshold breached for eu-west-1 account,COST_BILLING,COST_BILLING-2
+URGENT connection pool exhausted talking to orders-db,DATABASE,DATABASE-1
+spend tracking way over plan this month (+$4650),COST_BILLING,COST_BILLING-0
+customers getting errors at checkout on auth,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+read replica orders-db falling behind master,DATABASE,DATABASE-2
+brute force against SSH on orders-svc,SECURITY,SECURITY-2
+brute force against SSH on orders-svc,SECURITY,SECURITY-2
+new admin rights granted to jdoe without ticket,SECURITY,SECURITY-3
+release v7.25 broke login for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+someone disabled audit trail in us-west-2,SECURITY,SECURITY-1
+throughput credits depleted on gp2 volume of payments-api,STORAGE,STORAGE-2
+intermittent connectivity drops to us-west-2,NETWORK,NETWORK-1
+name lookups timing out for internal services,NETWORK,NETWORK-3
+[PagerDuty] search throwing 500s since the v5.23 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+name lookups timing out for internal services,NETWORK,NETWORK-3
+"i-09f8e7d6c5b4 pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+"reporting-node pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+read replica customers-aurora falling behind master,DATABASE,DATABASE-2
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+"volume nearly full, logs cannot be written on orders-svc",STORAGE,STORAGE-1
+budget threshold breached for us-west-2 account,COST_BILLING,COST_BILLING-2
+release v7.13 broke login for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+lock waits piling up on rds-prod-main,DATABASE,DATABASE-3
+intermittent connectivity drops to us-east-1,NETWORK,NETWORK-1
+customers getting errors at checkout on notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+suspicious API calls by jdoe from Tor exit node 203.0.113.45,SECURITY,SECURITY-0
+read replica customers-aurora falling behind master,DATABASE,DATABASE-2
+pods for search keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+release v8.0 broke login for search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+[PagerDuty] spend tracking way over plan this month (+$673),COST_BILLING,COST_BILLING-0
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+someone disabled audit trail in us-east-1,SECURITY,SECURITY-1
+"volume nearly full, logs cannot be written on i-09f8e7d6c5b4",STORAGE,STORAGE-1
+connection pool exhausted talking to analytics-pg,DATABASE,DATABASE-1
+"box web-01 swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+no space left on device on api-prod-3,STORAGE,STORAGE-0
+"inventory-ddb primary unhealthy, standby promoted",DATABASE,DATABASE-0
+search throwing 500s since the v6.1 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+objects failing to copy to DR bucket customer-uploads,STORAGE,STORAGE-3
+"reporting-node pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+"reporting-node pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+suspicious api calls by ci-runner from tor exit node 192.0.2.88,SECURITY,SECURITY-0
+throughput credits depleted on gp2 volume of i-0a1b2c3d4e5f,STORAGE,STORAGE-2
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+intermittent connectivity drops to us-east-1,NETWORK,NETWORK-1
+suspicious API calls by ci-runner from Tor exit node 185.220.101.4,SECURITY,SECURITY-0
+read replica orders-db falling behind master,DATABASE,DATABASE-2
+budget threshold breached for us-east-1 account,COST_BILLING,COST_BILLING-2
+budget threshold breached for eu-west-1 account,COST_BILLING,COST_BILLING-2
+"bill jumped $3440 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+URGENT customers getting errors at checkout on notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+"orders-db primary unhealthy, standby promoted",DATABASE,DATABASE-0
+no space left on device on payments-api,STORAGE,STORAGE-0
+lock waits piling up on customers-aurora,DATABASE,DATABASE-3
+no space left on device on web-01,STORAGE,STORAGE-0
+release v1.27 broke login for catalog,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+name lookups timing out for internal services,NETWORK,NETWORK-3
+name lookups timing out for internal services,NETWORK,NETWORK-3
+[PagerDuty] no space left on device on i-0a1b2c3d4e5f,STORAGE,STORAGE-0
+brute force against SSH on batch-worker-2,SECURITY,SECURITY-2
+intermittent connectivity drops to eu-west-1,NETWORK,NETWORK-1
+brute force against SSH on web-07,SECURITY,SECURITY-2
+connection pool exhausted talking to analytics-pg,DATABASE,DATABASE-1
+[PagerDuty] lock waits piling up on customers-aurora,DATABASE,DATABASE-3
+release v5.20 broke login for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+objects failing to copy to DR bucket data-lake-raw,STORAGE,STORAGE-3
+URGENT tunnel flapping between office and VPC,NETWORK,NETWORK-2
+brute force against SSH on i-0a1b2c3d4e5f,SECURITY,SECURITY-2
+no space left on device on payments-api,STORAGE,STORAGE-0
+tunnel flapping between office and VPC,NETWORK,NETWORK-2
+customers getting errors at checkout on search,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+FYI: suspicious api calls by svc-deploy from tor exit node 185.220.101.4,SECURITY,SECURITY-0
+"FYI: fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+name lookups timing out for internal services,NETWORK,NETWORK-3
+"[PagerDuty] analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+"box api-prod-3 swapping heavily, ram exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+[PagerDuty] intermittent connectivity drops to eu-west-1,NETWORK,NETWORK-1
+"volume nearly full, logs cannot be written on payments-api",STORAGE,STORAGE-1
+intermittent connectivity drops to eu-west-1,NETWORK,NETWORK-1
+release v1.16 broke login for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+release v6.1 broke login for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+FYI: budget threshold breached for eu-west-1 account,COST_BILLING,COST_BILLING-2
+tunnel flapping between office and VPC,NETWORK,NETWORK-2
+budget threshold breached for us-west-2 account,COST_BILLING,COST_BILLING-2
+URGENT new admin rights granted to jdoe without ticket,SECURITY,SECURITY-3
+someone disabled audit trail in eu-west-1,SECURITY,SECURITY-1
+spend tracking way over plan this month (+$2905),COST_BILLING,COST_BILLING-0
+intermittent connectivity drops to us-east-1,NETWORK,NETWORK-1
+pods for checkout keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"box payments-api swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+brute force against SSH on payments-api,SECURITY,SECURITY-2
+"box i-09f8e7d6c5b4 swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+read replica customers-aurora falling behind master,DATABASE,DATABASE-2
+pods for search keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"bill jumped $5677 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+connection pool exhausted talking to orders-db,DATABASE,DATABASE-1
+intermittent connectivity drops to eu-west-1,NETWORK,NETWORK-1
+new admin rights granted to svc-deploy without ticket,SECURITY,SECURITY-3
+connection pool exhausted talking to customers-aurora,DATABASE,DATABASE-1
+read replica orders-db falling behind master,DATABASE,DATABASE-2
+"FYI: payments-api pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+customers getting errors at checkout on checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+[P2] commitment discount coverage slipping to 98%,COST_BILLING,COST_BILLING-3
+commitment discount coverage slipping to 96%,COST_BILLING,COST_BILLING-3
+"box orders-svc swapping heavily, ram exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+someone disabled audit trail in us-east-1,SECURITY,SECURITY-1
+suspicious API calls by ci-runner from Tor exit node 203.0.113.45,SECURITY,SECURITY-0
+brute force against SSH on ip-10-0-3-17,SECURITY,SECURITY-2
+connection pool exhausted talking to analytics-pg,DATABASE,DATABASE-1
+FYI: throughput credits depleted on gp2 volume of web-01,STORAGE,STORAGE-2
+someone disabled audit trail in us-west-2,SECURITY,SECURITY-1
+FYI: someone disabled audit trail in us-east-1,SECURITY,SECURITY-1
+"volume nearly full, logs cannot be written on orders-svc",STORAGE,STORAGE-1
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+tunnel flapping between office and VPC,NETWORK,NETWORK-2
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+throughput credits depleted on gp2 volume of i-0a1b2c3d4e5f,STORAGE,STORAGE-2
+objects failing to copy to DR bucket backup-archive,STORAGE,STORAGE-3
+"users report site slow to load, ALB p99 8320ms",NETWORK,NETWORK-0
+URGENT scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+[P2] objects failing to copy to DR bucket data-lake-raw,STORAGE,STORAGE-3
+catalog throwing 500s since the v5.1 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+lock waits piling up on analytics-pg,DATABASE,DATABASE-3
+lock waits piling up on rds-prod-main,DATABASE,DATABASE-3
+"users report site slow to load, ALB p99 5759ms",NETWORK,NETWORK-0
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+"box i-09f8e7d6c5b4 swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+read replica rds-prod-main falling behind master,DATABASE,DATABASE-2
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+throughput credits depleted on gp2 volume of i-0a1b2c3d4e5f,STORAGE,STORAGE-2
+lock waits piling up on rds-prod-main,DATABASE,DATABASE-3
+spend tracking way over plan this month (+$1244),COST_BILLING,COST_BILLING-0
+commitment discount coverage slipping to 88%,COST_BILLING,COST_BILLING-3
+brute force against SSH on payments-api,SECURITY,SECURITY-2
+"[P2] fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+read replica customers-aurora falling behind master,DATABASE,DATABASE-2
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+suspicious API calls by jdoe from Tor exit node 198.51.100.23,SECURITY,SECURITY-0
+spend tracking way over plan this month (+$9355),COST_BILLING,COST_BILLING-0
+suspicious API calls by ci-runner from Tor exit node 198.51.100.23,SECURITY,SECURITY-0
+notifications throwing 500s since the v8.8 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+"[PagerDuty] bill jumped $4001 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+"[P2] bill jumped $7102 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+FYI: throughput credits depleted on gp2 volume of payments-api,STORAGE,STORAGE-2
+objects failing to copy to dr bucket customer-uploads,STORAGE,STORAGE-3
+intermittent connectivity drops to us-west-2,NETWORK,NETWORK-1
+"inventory-ddb primary unhealthy, standby promoted",DATABASE,DATABASE-0
+brute force against SSH on web-07,SECURITY,SECURITY-2
+lock waits piling up on rds-prod-main,DATABASE,DATABASE-3
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+someone disabled audit trail in us-east-1,SECURITY,SECURITY-1
+name lookups timing out for internal services,NETWORK,NETWORK-3
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+URGENT no space left on device on web-07,STORAGE,STORAGE-0
+"[P2] api-prod-3 pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+spend tracking way over plan this month (+$5528),COST_BILLING,COST_BILLING-0
+connection pool exhausted talking to orders-db,DATABASE,DATABASE-1
+objects failing to copy to DR bucket backup-archive,STORAGE,STORAGE-3
+"analytics-pg primary unhealthy, standby promoted",DATABASE,DATABASE-0
+"web-01 pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+[P2] pods for search keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+FYI: new admin rights granted to contractor-07 without ticket,SECURITY,SECURITY-3
+[PagerDuty] intermittent connectivity drops to eu-west-1,NETWORK,NETWORK-1
+suspicious API calls by ci-runner from Tor exit node 192.0.2.88,SECURITY,SECURITY-0
+"[P2] users report site slow to load, ALB p99 2238ms",NETWORK,NETWORK-0
+"box orders-svc swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+commitment discount coverage slipping to 85%,COST_BILLING,COST_BILLING-3
+throughput credits depleted on gp2 volume of payments-api,STORAGE,STORAGE-2
+checkout throwing 500s since the v9.30 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+customers getting errors at checkout on checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+connection pool exhausted talking to inventory-ddb,DATABASE,DATABASE-1
+no space left on device on web-01,STORAGE,STORAGE-0
+"[P2] users report site slow to load, ALB p99 2534ms",NETWORK,NETWORK-0
+"bill jumped $9072 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+"[PagerDuty] box orders-svc swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+"users report site slow to load, ALB p99 4781ms",NETWORK,NETWORK-0
+notifications throwing 500s since the v6.25 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+no space left on device on ip-10-0-3-17,STORAGE,STORAGE-0
+FYI: commitment discount coverage slipping to 94%,COST_BILLING,COST_BILLING-3
+[PagerDuty] intermittent connectivity drops to eu-west-1,NETWORK,NETWORK-1
+new admin rights granted to admin-temp without ticket,SECURITY,SECURITY-3
+name lookups timing out for internal services,NETWORK,NETWORK-3
+spend tracking way over plan this month (+$3654),COST_BILLING,COST_BILLING-0
+someone disabled audit trail in eu-west-1,SECURITY,SECURITY-1
+"i-09f8e7d6c5b4 pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0
+[P2] customers getting errors at checkout on checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-3
+spend tracking way over plan this month (+$154),COST_BILLING,COST_BILLING-0
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+release v2.29 broke login for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+"users report site slow to load, ALB p99 5316ms",NETWORK,NETWORK-0
+FYI: notifications throwing 500s since the v1.24 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+budget threshold breached for us-west-2 account,COST_BILLING,COST_BILLING-2
+someone disabled audit trail in eu-west-1,SECURITY,SECURITY-1
+name lookups timing out for internal services,NETWORK,NETWORK-3
+notifications throwing 500s since the v4.1 rollout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-0
+FYI: new admin rights granted to ci-runner without ticket,SECURITY,SECURITY-3
+connection pool exhausted talking to orders-db,DATABASE,DATABASE-1
+"bill jumped $8415 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+commitment discount coverage slipping to 96%,COST_BILLING,COST_BILLING-3
+"volume nearly full, logs cannot be written on payments-api",STORAGE,STORAGE-1
+new admin rights granted to jdoe without ticket,SECURITY,SECURITY-3
+pods for catalog keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+read replica customers-aurora falling behind master,DATABASE,DATABASE-2
+release v7.25 broke login for checkout,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+lock waits piling up on orders-db,DATABASE,DATABASE-3
+scale-out blocked: no spare capacity for requested instance type,COMPUTE_CAPACITY,COMPUTE_CAPACITY-1
+commitment discount coverage slipping to 98%,COST_BILLING,COST_BILLING-3
+suspicious api calls by ci-runner from tor exit node 192.0.2.88,SECURITY,SECURITY-0
+commitment discount coverage slipping to 93%,COST_BILLING,COST_BILLING-3
+lock waits piling up on rds-prod-main,DATABASE,DATABASE-3
+no space left on device on batch-worker-2,STORAGE,STORAGE-0
+intermittent connectivity drops to eu-west-1,NETWORK,NETWORK-1
+lock waits piling up on customers-aurora,DATABASE,DATABASE-3
+[PagerDuty] commitment discount coverage slipping to 86%,COST_BILLING,COST_BILLING-3
+pods for checkout keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"fleet saturated during peak, need more nodes",COMPUTE_CAPACITY,COMPUTE_CAPACITY-3
+tunnel flapping between office and vpc,NETWORK,NETWORK-2
+lock waits piling up on rds-prod-main,DATABASE,DATABASE-3
+"bill jumped $2202 overnight, unknown cause",COST_BILLING,COST_BILLING-1
+suspicious api calls by contractor-07 from tor exit node 198.51.100.23,SECURITY,SECURITY-0
+"box orders-svc swapping heavily, RAM exhausted",COMPUTE_CAPACITY,COMPUTE_CAPACITY-2
+release v9.6 broke login for notifications,APPLICATION_DEPLOY,APPLICATION_DEPLOY-1
+pods for catalog keep restarting after deploy,APPLICATION_DEPLOY,APPLICATION_DEPLOY-2
+"payments-api pegged, all cores busy, requests queuing",COMPUTE_CAPACITY,COMPUTE_CAPACITY-0

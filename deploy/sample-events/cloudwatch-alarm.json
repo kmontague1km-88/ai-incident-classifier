@@ -1,0 +1,1 @@
+{"Records": [{"Sns": {"MessageId": "sample-1", "Message": "{\"AlarmName\": \"orders-db-connections\", \"AlarmDescription\": \"DatabaseConnections > 400 on orders-db\", \"NewStateReason\": \"Threshold Crossed: 1 datapoint [412.0] was greater than the threshold (400.0).\"}"}}]}

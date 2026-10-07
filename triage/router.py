@@ -4,8 +4,6 @@
 * confidence <  threshold -> human triage queue (optionally after asking a
   foundation model on Amazon Bedrock for a second opinion)
 """
-import json
-
 from . import config as C
 from .model import predict
 
@@ -16,10 +14,10 @@ def bedrock_second_opinion(client, text):
     prompt = ("Classify this cloud monitoring alert into exactly one category: "
               + ", ".join(C.CATEGORIES)
               + ". Reply with the category name only.\n\nAlert: " + text)
-    body = json.dumps({"anthropic_version": "bedrock-2023-05-31", "max_tokens": 20,
-                       "messages": [{"role": "user", "content": prompt}]})
-    resp = client.invoke_model(modelId=C.BEDROCK_MODEL_ID, body=body)
-    answer = json.loads(resp["body"].read())["content"][0]["text"].strip().upper()
+    resp = client.converse(modelId=C.BEDROCK_MODEL_ID,
+                           messages=[{"role": "user", "content": [{"text": prompt}]}],
+                           inferenceConfig={"maxTokens": 20, "temperature": 0})
+    answer = resp["output"]["message"]["content"][0]["text"].strip().upper()
     return answer if answer in C.CATEGORIES else None
 
 

@@ -1,0 +1,39 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+rootdir: /tmp/w/ai-incident-classifier
+plugins: anyio-4.15.1, cov-7.1.0
+collecting ... collected 17 items
+
+tests/test_baseline.py::test_keyword_router_matches_known_wording PASSED [  5%]
+tests/test_baseline.py::test_keyword_router_misses_new_wording PASSED    [ 11%]
+tests/test_baseline.py::test_keyword_router_first_match_can_misroute PASSED [ 17%]
+tests/test_handler.py::test_alert_text_normalizes_cloudwatch_and_eventbridge PASSED [ 23%]
+tests/test_handler.py::test_end_to_end_routing_delivery_and_audit PASSED [ 29%]
+tests/test_handler.py::test_bedrock_not_called_when_disabled PASSED      [ 35%]
+tests/test_model.py::test_predicts_every_category_on_clear_examples PASSED [ 41%]
+tests/test_model.py::test_generalizes_to_unseen_wording PASSED           [ 47%]
+tests/test_model.py::test_confidence_is_a_probability PASSED             [ 52%]
+tests/test_model.py::test_explanation_terms_come_from_the_alert PASSED   [ 58%]
+tests/test_model.py::test_deterministic_training PASSED                  [ 64%]
+tests/test_router.py::test_high_confidence_auto_routes_with_runbook PASSED [ 70%]
+tests/test_router.py::test_low_confidence_goes_to_human_triage PASSED    [ 76%]
+tests/test_router.py::test_threshold_boundary PASSED                     [ 82%]
+tests/test_router.py::test_llm_agreement_promotes_to_auto_route PASSED   [ 88%]
+tests/test_router.py::test_llm_disagreement_stays_with_human PASSED      [ 94%]
+tests/test_router.py::test_llm_invalid_answer_is_ignored PASSED          [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.16-final-0 _______________
+
+Name                 Stmts   Miss  Cover
+----------------------------------------
+triage/__init__.py       1      0   100%
+triage/baseline.py       9      0   100%
+triage/config.py        18      0   100%
+triage/dataset.py       45      5    89%
+triage/handler.py       44      5    89%
+triage/model.py         46      3    93%
+triage/router.py        24      0   100%
+----------------------------------------
+TOTAL                  187     13    93%
+============================== 17 passed in 3.37s ==============================

@@ -1,0 +1,94 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Alert Triage AI - NLP classification and routing of cloud alerts
+
+Parameters:
+  ConfidenceThreshold: {Type: String, Default: "0.65"}
+  UseBedrock: {Type: String, Default: "false", AllowedValues: ["true", "false"]}
+  TriageEmail: {Type: String, Description: On-call address for low-confidence alerts}
+
+Resources:
+  IncomingAlerts:            # CloudWatch alarms, Budgets, EventBridge rules publish here
+    Type: AWS::SNS::Topic
+    Properties: {TopicName: incoming-alerts, KmsMasterKeyId: alias/aws/sns}
+  TriageTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: triage-human-review
+      KmsMasterKeyId: alias/aws/sns
+      Subscription: [{Protocol: email, Endpoint: !Ref TriageEmail}]
+  PlatformOpsTopic: {Type: AWS::SNS::Topic, Properties: {TopicName: team-platform-ops, KmsMasterKeyId: alias/aws/sns}}
+  NetworkTopic:     {Type: AWS::SNS::Topic, Properties: {TopicName: team-network, KmsMasterKeyId: alias/aws/sns}}
+  DbaTopic:         {Type: AWS::SNS::Topic, Properties: {TopicName: team-dba, KmsMasterKeyId: alias/aws/sns}}
+  SecOpsTopic:      {Type: AWS::SNS::Topic, Properties: {TopicName: team-secops, KmsMasterKeyId: alias/aws/sns}}
+  AppSupportTopic:  {Type: AWS::SNS::Topic, Properties: {TopicName: team-app-support, KmsMasterKeyId: alias/aws/sns}}
+  FinOpsTopic:      {Type: AWS::SNS::Topic, Properties: {TopicName: team-finops, KmsMasterKeyId: alias/aws/sns}}
+
+  TriageLog:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: alert-triage-log
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions: [{AttributeName: alert_id, AttributeType: S}]
+      KeySchema: [{AttributeName: alert_id, KeyType: HASH}]
+      PointInTimeRecoverySpecification: {PointInTimeRecoveryEnabled: true}
+      SSESpecification: {SSEEnabled: true}
+
+  TriageDLQ:
+    Type: AWS::SQS::Queue
+    Properties: {QueueName: alert-triage-dlq, MessageRetentionPeriod: 1209600}
+
+  TriageFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      PackageType: Image
+      MemorySize: 1024
+      Timeout: 30
+      ReservedConcurrentExecutions: 20
+      DeadLetterQueue: {Type: SQS, TargetArn: !GetAtt TriageDLQ.Arn}
+      Tracing: Active
+      Environment:
+        Variables:
+          TRIAGE_CONFIDENCE_THRESHOLD: !Ref ConfidenceThreshold
+          TRIAGE_USE_BEDROCK: !Ref UseBedrock
+          TRIAGE_TABLE: !Ref TriageLog
+          TRIAGE_QUEUE_TOPIC: !Ref TriageTopic
+          TRIAGE_TOPIC_COMPUTE_CAPACITY: !Ref PlatformOpsTopic
+          TRIAGE_TOPIC_STORAGE: !Ref PlatformOpsTopic
+          TRIAGE_TOPIC_NETWORK: !Ref NetworkTopic
+          TRIAGE_TOPIC_DATABASE: !Ref DbaTopic
+          TRIAGE_TOPIC_SECURITY: !Ref SecOpsTopic
+          TRIAGE_TOPIC_APPLICATION_DEPLOY: !Ref AppSupportTopic
+          TRIAGE_TOPIC_COST_BILLING: !Ref FinOpsTopic
+      Events:
+        FromAlerts: {Type: SNS, Properties: {Topic: !Ref IncomingAlerts}}
+      Policies:
+        - DynamoDBWritePolicy: {TableName: !Ref TriageLog}
+        - Statement:
+            - Effect: Allow
+              Action: sns:Publish
+              Resource: [!Ref TriageTopic, !Ref PlatformOpsTopic, !Ref NetworkTopic, !Ref DbaTopic,
+                         !Ref SecOpsTopic, !Ref AppSupportTopic, !Ref FinOpsTopic]
+            - Effect: Allow
+              Action: bedrock:InvokeModel
+              Resource: !Sub arn:aws:bedrock:${AWS::Region}::foundation-model/amazon.nova-micro-v1:0
+    Metadata:
+      DockerContext: ..
+      Dockerfile: Dockerfile
+
+  ErrorsAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: alert-triage-function-errors
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions: [{Name: FunctionName, Value: !Ref TriageFunction}]
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      AlarmActions: [!Ref TriageTopic]
+
+Outputs:
+  IncomingAlertsTopicArn: {Value: !Ref IncomingAlerts, Description: Point CloudWatch alarms and EventBridge rules here}

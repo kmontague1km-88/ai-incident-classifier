@@ -1,0 +1,4 @@
+scikit-learn==1.9.1
+joblib>=1.4
+numpy>=2.0
+boto3>=1.35

@@ -55,7 +55,7 @@ EventBridge rule for GuardDuty findings at the `IncomingAlertsTopicArn` output,
 and subscribe each team (email, Slack via AWS Chatbot, or PagerDuty) to its
 `team-*` topic. Test with `sam local invoke TriageFunction -e deploy/sample-events/cloudwatch-alarm.json`.
 
-To enable the Bedrock second opinion, request model access for Claude 3 Haiku
+To enable the Bedrock second opinion, request model access for Amazon Nova Micro
 in the Bedrock console and redeploy with `UseBedrock=true`.
 
 ## Retraining
